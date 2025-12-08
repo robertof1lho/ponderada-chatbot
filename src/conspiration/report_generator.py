@@ -1,21 +1,37 @@
-from langchain.prompts import ChatPromptTemplate
-from langchain.schema import HumanMessage
-from llm_agent import llm
+# report_generator.py
+
+from langchain_core.prompts import ChatPromptTemplate
+from langchain_openai import ChatOpenAI
+import os
+from dotenv import load_dotenv
+
+load_dotenv()
+API_KEY = os.getenv("NVIDIA_API_KEY")
+
+llm = ChatOpenAI(
+    model="nvidia/llama-3.3-nemotron-super-49b-v1.5",
+    api_key=API_KEY,
+    base_url="https://integrate.api.nvidia.com/v1"
+)
 
 
 REPORT_PROMPT = ChatPromptTemplate.from_messages([
     (
         "system",
         """
-        You are a summarization expert.
+        You are an AI report generator.
 
-        Generate a FINAL REPORT that includes:
-        1. Narrative of the full investigation  
-        2. Summary of evidence  
-        3. Profiles of individuals  
-        4. Final conclusion: Is Michael conspiring against Toby?  
+        Using the cluster analyses provided, generate a FINAL REPORT including:
 
-        Only use the provided analyses.
+        1. Narrative of the full investigation.
+        2. Summary of key evidence.
+        3. Profiles of individuals involved.
+        4. Final conclusion answering:
+           "Is Michael Scott conspiring against Toby?"
+
+        Use only provided evidence.
+        Be clear, structured, and analytical.
+        Answer in Portuguese.
         """
     ),
     ("human", "{cluster_analyses}")
@@ -23,10 +39,10 @@ REPORT_PROMPT = ChatPromptTemplate.from_messages([
 
 
 def generate_final_report(cluster_analysis_texts):
-    joined = "\n\n--- CLUSTER BREAK ---\n\n".join(cluster_analysis_texts)
+    joined = "\n\n====== CLUSTER BREAK ======\n\n".join(cluster_analysis_texts)
 
-    response = llm([
-        HumanMessage(content=REPORT_PROMPT.format(cluster_analyses=joined))
-    ])
+    response = llm.invoke(
+        REPORT_PROMPT.format(cluster_analyses=joined)
+    )
 
     return response.content

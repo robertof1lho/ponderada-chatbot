@@ -1,21 +1,33 @@
 from transformers import pipeline
 from datetime import datetime, timedelta
 
+# ============================================================
+# 🔥 LOAD MODELS ONCE (GLOBAL SINGLETONS)
+# ============================================================
 
-# =====================================================================
-# SENTIMENT ANALYSIS
-# =====================================================================
+print("Carregando modelos de NLP...")
+
+SENTIMENT_MODEL = pipeline(
+    "sentiment-analysis",
+    model="nlptown/bert-base-multilingual-uncased-sentiment",
+    tokenizer="nlptown/bert-base-multilingual-uncased-sentiment",
+    device=-1
+)
+
+ZERO_SHOT_MODEL = pipeline(
+    "zero-shot-classification",
+    model="MoritzLaurer/mDeBERTa-v3-base-mnli-xnli",
+    device=-1
+)
+
+print("Modelos carregados com sucesso!\n")
+
+
+# ============================================================
+# 🔥 SENTIMENT ANALYSIS
+# ============================================================
 def sentiment_pipeline(text: str):
-    model_name = "nlptown/bert-base-multilingual-uncased-sentiment"
-
-    classifier = pipeline(
-        "sentiment-analysis",
-        model=model_name,
-        tokenizer=model_name,
-        device=-1
-    )
-
-    result = classifier(text)[0]
+    result = SENTIMENT_MODEL(text)[0]   
     stars = int(result["label"][0])
 
     if stars <= 2:
@@ -25,29 +37,20 @@ def sentiment_pipeline(text: str):
     else:
         label = "POS"
 
-    return {
-        "label": label,
-        "raw_label": result["label"],
-        "score": result["score"]
-    }
+    return {"label": label, "raw_label": result["label"], "score": result["score"]}
 
 
-# =====================================================================
-# ZERO-SHOT TOPIC CLASSIFICATION
-# =====================================================================
+# ============================================================
+# 🔥 ZERO-SHOT TOPIC CLASSIFICATION
+# ============================================================
 def zero_shot_pipeline(text: str, labels):
-    classifier = pipeline(
-        "zero-shot-classification",
-        model="MoritzLaurer/mDeBERTa-v3-base-mnli-xnli"
-    )
-
-    result = classifier(text, candidate_labels=labels, multi_label=True)
+    result = ZERO_SHOT_MODEL(text, candidate_labels=labels, multi_label=True)
     return {"labels": result["labels"], "scores": result["scores"]}
 
 
-# =====================================================================
-# EMAIL SCORING
-# =====================================================================
+# ============================================================
+# 🔥 FULL PIPELINE FOR EACH EMAIL
+# ============================================================
 def initial_impression_pipeline(emails_json):
     results = []
 
@@ -55,17 +58,13 @@ def initial_impression_pipeline(emails_json):
         subject = email.get("subject", "")
         body = email.get("body", "")
         sender = email.get("from", "").lower()
+
         text = subject + "\n" + body
 
         sentiment = sentiment_pipeline(text)
-
         topics = zero_shot_pipeline(text, [
-            "conspiracy",
-            "suspicious",
-            "complaint",
-            "procedural",
-            "work-related",
-            "personal"
+            "conspiracy", "suspicious", "complaint",
+            "procedural", "work-related", "personal"
         ])
 
         conspiracy_score = topics["scores"][topics["labels"].index("conspiracy")]
@@ -82,10 +81,9 @@ def initial_impression_pipeline(emails_json):
 
         results.append({
             "id": email["id"],
-            "from": email["from"],
+            "from": email.get("from", ""),
             "subject": subject,
             "body": body,
-            "date": email["date"],
             "sentiment": sentiment,
             "topics": topics,
             "suspicion_score": suspicion_score
@@ -94,20 +92,16 @@ def initial_impression_pipeline(emails_json):
     return results
 
 
-# =====================================================================
-# CLUSTER DETECTION (SUSPICIOUS EMAIL + CONTEXT)
-# =====================================================================
+# ============================================================
+# 🔥 GROUPING LOGIC
+# ============================================================
 def parse_date(date_str):
     return datetime.strptime(date_str, "%Y-%m-%d %H:%M")
 
 
 def group_suspicious_with_michael_context(emails_json, scores_json, threshold=0.8):
     email_by_id = {email["id"]: email for email in emails_json}
-
-    suspicious = [
-        result for result in scores_json
-        if result["suspicion_score"] >= threshold
-    ]
+    suspicious = [s for s in scores_json if s["suspicion_score"] >= threshold]
 
     groups = []
 
@@ -120,10 +114,9 @@ def group_suspicious_with_michael_context(emails_json, scores_json, threshold=0.
 
         context = []
         for email in emails_json:
-            sender = email["from"].lower()
-            if "michael.scott" in sender:
-                email_date = parse_date(email["date"])
-                if lower <= email_date <= upper:
+            if "michael.scott" in email["from"].lower():
+                date = parse_date(email["date"])
+                if lower <= date <= upper:
                     context.append(email)
 
         groups.append({
