@@ -1,11 +1,8 @@
 from transformers import pipeline
 from datetime import datetime, timedelta
 
-# ============================================================
-# 🔥 LOAD MODELS ONCE (GLOBAL SINGLETONS)
-# ============================================================
 
-print("Carregando modelos de NLP...")
+print("Carregando modelos...")
 
 SENTIMENT_MODEL = pipeline(
     "sentiment-analysis",
@@ -22,10 +19,6 @@ ZERO_SHOT_MODEL = pipeline(
 
 print("Modelos carregados com sucesso!\n")
 
-
-# ============================================================
-# 🔥 SENTIMENT ANALYSIS
-# ============================================================
 def sentiment_pipeline(text: str):
     result = SENTIMENT_MODEL(text)[0]   
     stars = int(result["label"][0])
@@ -39,18 +32,10 @@ def sentiment_pipeline(text: str):
 
     return {"label": label, "raw_label": result["label"], "score": result["score"]}
 
-
-# ============================================================
-# 🔥 ZERO-SHOT TOPIC CLASSIFICATION
-# ============================================================
 def zero_shot_pipeline(text: str, labels):
     result = ZERO_SHOT_MODEL(text, candidate_labels=labels, multi_label=True)
     return {"labels": result["labels"], "scores": result["scores"]}
 
-
-# ============================================================
-# 🔥 FULL PIPELINE FOR EACH EMAIL
-# ============================================================
 def initial_impression_pipeline(emails_json):
     results = []
 
@@ -73,9 +58,9 @@ def initial_impression_pipeline(emails_json):
         mentions_toby = 1 if "toby" in text.lower() else 0
 
         suspicion_score = (
-            0.45 * sender_flag +
-            0.15 * mentions_toby +
-            0.25 * conspiracy_score +
+            0.35 * sender_flag +    
+            0.10 * mentions_toby +
+            0.40 * conspiracy_score +
             0.15 * sentiment_neg
         )
 
@@ -92,9 +77,6 @@ def initial_impression_pipeline(emails_json):
     return results
 
 
-# ============================================================
-# 🔥 GROUPING LOGIC
-# ============================================================
 def parse_date(date_str):
     return datetime.strptime(date_str, "%Y-%m-%d %H:%M")
 

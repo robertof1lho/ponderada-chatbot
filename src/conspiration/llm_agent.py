@@ -1,6 +1,7 @@
 # llm_agent.py
 
 import os
+import re
 from dotenv import load_dotenv
 
 from langchain_core.prompts import ChatPromptTemplate
@@ -101,4 +102,8 @@ def analyze_cluster_with_agent(cluster):
         AGENT_PROMPT.format(cluster_text=cluster_text)
     )
 
-    return response.content
+    cleaned_content = re.sub(
+        r"<think>.*?</think>", "", response.content, flags=re.DOTALL
+    ).strip()
+
+    return cleaned_content

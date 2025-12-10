@@ -85,16 +85,14 @@ def main():
     print("\nRodando LLM para cada cluster...")
     cluster_reports = []
     for idx, cluster in enumerate(clusters, start=1):
-        print(f"   → Analisando cluster #{idx}...")
+        print(f"Analisando cluster #{idx}...")
         analysis = analyze_cluster_with_agent(cluster)
         cluster_reports.append(analysis)
 
     print("\nGerando relatório final...")
     final_report = generate_final_report(cluster_reports)
 
-    print("\n======================================================")
-    print("================ RELATÓRIO FINAL =====================")
-    print("======================================================\n")
+    print("\n================ RELATÓRIO FINAL =====================\n")
     print(final_report)
 
     os.makedirs("output", exist_ok=True)
