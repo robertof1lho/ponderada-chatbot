@@ -1,0 +1,11 @@
+# Core
+pandas>=2.0.0
+python-dotenv>=1.0.0
+
+# LLM & Agents
+langchain>=0.1.0
+langchain-anthropic>=0.1.0
+anthropic>=0.25.0
+
+# Utilidades
+pydantic>=2.0.0
