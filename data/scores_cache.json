@@ -1,0 +1,3515 @@
+{
+  "emails_hash": "f254254ca9e776b7b4ca7b7046eba3e8e1696a3346f9726d8a732a306d7def3d",
+  "scores": [
+    {
+      "id": 1,
+      "from": "Toby Flenderson <toby.flenderson@dundermifflin.com>",
+      "subject": "Atualização do Formulário de Seguro Dental",
+      "body": "Olá a todos.\nA Blue Cross mudou o provedor de seguro dental. Quem tiver dependentes precisa preencher o formulário 12-B na minha mesa até sexta-feira. Se você não preencher, perderá a cobertura de ortodontia.\nPor favor, não desenhem no formulário.",
+      "sentiment": {
+        "label": "NEG",
+        "raw_label": "1 star",
+        "score": 0.46641939878463745
+      },
+      "topics": {
+        "labels": [
+          "work-related",
+          "procedural",
+          "complaint",
+          "personal",
+          "suspicious",
+          "conspiracy"
+        ],
+        "scores": [
+          0.021610170602798462,
+          0.004070137161761522,
+          0.001913633313961327,
+          0.0004450864507816732,
+          0.0003704614646267146,
+          0.0003320922842249274
+        ]
+      },
+      "suspicion_score": 0.15013283691368998
+    },
+    {
+      "id": 2,
+      "from": "Phyllis Lapin-Vance <phyllis.vance@dundermifflin.com>",
+      "subject": "Guardanapos para a festa de aniversário do Creed",
+      "body": "Angela, comprei os guardanapos verdes como você pediu. O recibo foi de $12,50. Vou deixar na sua mesa para reembolso.\nEstou pensando em comprar um bolo de cenoura. O que acha?",
+      "sentiment": {
+        "label": "NEG",
+        "raw_label": "1 star",
+        "score": 0.5438952445983887
+      },
+      "topics": {
+        "labels": [
+          "suspicious",
+          "personal",
+          "conspiracy",
+          "procedural",
+          "work-related",
+          "complaint"
+        ],
+        "scores": [
+          0.069715715944767,
+          0.018360834568738937,
+          0.009974920190870762,
+          0.005490562878549099,
+          0.0035449787974357605,
+          0.0008693673880770802
+        ]
+      },
+      "suspicion_score": 0.1539899680763483
+    },
+    {
+      "id": 3,
+      "from": "Angela Martin <angela.martin@dundermifflin.com>",
+      "subject": "Re: Guardanapos para a festa de aniversário do Creed",
+      "body": "Verde musgo ou verde limão? Eu especifiquei verde musgo. Se for limão, não vou reembolsar.\nBolo de cenoura é aceitável, desde que não tenha uvas passas. Nada de extravagâncias, Phyllis. O orçamento é curto.",
+      "sentiment": {
+        "label": "NEU",
+        "raw_label": "3 stars",
+        "score": 0.42095860838890076
+      },
+      "topics": {
+        "labels": [
+          "personal",
+          "complaint",
+          "suspicious",
+          "procedural",
+          "work-related",
+          "conspiracy"
+        ],
+        "scores": [
+          0.9598044753074646,
+          0.8449215292930603,
+          0.7369688749313354,
+          0.4915779232978821,
+          0.20963142812252045,
+          0.1194530725479126
+        ]
+      },
+      "suspicion_score": 0.04778122901916504
+    },
+    {
+      "id": 4,
+      "from": "Oscar Martinez <oscar.martinez@dundermifflin.com>",
+      "subject": "Assinatura Necessária - Relatório Trimestral",
+      "body": "Michael,\nDeixei o relatório de vendas do Q1 na sua mesa. Todos os números batem com o sistema. O Jim teve um ótimo mês, o Dwight ficou na média.\nPreciso apenas da sua assinatura na página 4 para enviar para o Corporate em NY. É o procedimento padrão, sem custos envolvidos.",
+      "sentiment": {
+        "label": "NEU",
+        "raw_label": "3 stars",
+        "score": 0.39695775508880615
+      },
+      "topics": {
+        "labels": [
+          "procedural",
+          "work-related",
+          "conspiracy",
+          "complaint",
+          "personal",
+          "suspicious"
+        ],
+        "scores": [
+          0.9992052912712097,
+          0.9382515549659729,
+          0.006133174989372492,
+          0.005040703807026148,
+          0.0016324889147654176,
+          0.000705527258105576
+        ]
+      },
+      "suspicion_score": 0.002453269995748997
+    },
+    {
+      "id": 5,
+      "from": "Michael Scott <michael.scott@dundermifflin.com>",
+      "subject": "Re: Assinatura Necessária",
+      "body": "Assinado.\nP.S.: Oscar, você acha que o gráfico de barras ficaria melhor se fosse em 3D? O PowerPoint tem um recurso que faz as barras parecerem prédios. Pense nisso para o próximo.",
+      "sentiment": {
+        "label": "NEU",
+        "raw_label": "3 stars",
+        "score": 0.38960000872612
+      },
+      "topics": {
+        "labels": [
+          "work-related",
+          "suspicious",
+          "procedural",
+          "personal",
+          "complaint",
+          "conspiracy"
+        ],
+        "scores": [
+          0.7991290092468262,
+          0.5068355202674866,
+          0.25771835446357727,
+          0.13450568914413452,
+          0.048316072672605515,
+          0.011863394640386105
+        ]
+      },
+      "suspicion_score": 0.3547453578561544
+    },
+    {
+      "id": 6,
+      "from": "Stanley Hudson <stanley.hudson@dundermifflin.com>",
+      "subject": "Palavras Cruzadas",
+      "body": "Não me espere para o jantar. Vou ficar até as 17:05 hoje para terminar uma venda com a biblioteca pública.\nCompre mais daquele chá gelado que eu gosto.",
+      "sentiment": {
+        "label": "NEG",
+        "raw_label": "1 star",
+        "score": 0.6980962753295898
+      },
+      "topics": {
+        "labels": [
+          "conspiracy",
+          "procedural",
+          "personal",
+          "complaint",
+          "work-related",
+          "suspicious"
+        ],
+        "scores": [
+          0.9961456656455994,
+          0.9020933508872986,
+          0.46332281827926636,
+          0.3952508866786957,
+          0.38931435346603394,
+          0.20426253974437714
+        ]
+      },
+      "suspicion_score": 0.5484582662582398
+    },
+    {
+      "id": 7,
+      "from": "Andy Bernard <andy.bernard@dundermifflin.com>",
+      "subject": "Tuna!",
+      "body": "Ei Big Tuna!\nEncontrei um CD antigo do meu grupo a cappella de Cornell, o \"Here Comes Treble\".\nVou tocar no volume máximo na cozinha durante o intervalo. Você devia ir lá ouvir, cara. É som de primeira.\nRit-dit-dit-do-doo!",
+      "sentiment": {
+        "label": "POS",
+        "raw_label": "5 stars",
+        "score": 0.6893592476844788
+      },
+      "topics": {
+        "labels": [
+          "personal",
+          "work-related",
+          "complaint",
+          "procedural",
+          "conspiracy",
+          "suspicious"
+        ],
+        "scores": [
+          0.7123822569847107,
+          0.6390605568885803,
+          0.4042244553565979,
+          0.3546006381511688,
+          0.049244970083236694,
+          0.001700722612440586
+        ]
+      },
+      "suspicion_score": 0.01969798803329468
+    },
+    {
+      "id": 8,
+      "from": "Jim Halpert <jim.halpert@dundermifflin.com>",
+      "subject": "Re: Tuna!",
+      "body": "Obrigado pelo convite, Andy.\nInfelizmente, tenho uma chamada de conferência muito importante com um fornecedor de... grampos. Vai durar o intervalo inteiro. Que pena. Divirta-se.",
+      "sentiment": {
+        "label": "NEG",
+        "raw_label": "1 star",
+        "score": 0.5790491104125977
+      },
+      "topics": {
+        "labels": [
+          "complaint",
+          "conspiracy",
+          "suspicious",
+          "procedural",
+          "personal",
+          "work-related"
+        ],
+        "scores": [
+          0.9955834150314331,
+          0.9952632188796997,
+          0.9917243719100952,
+          0.8860265016555786,
+          0.6881541609764099,
+          0.517327070236206
+        ]
+      },
+      "suspicion_score": 0.5481052875518799
+    },
+    {
+      "id": 9,
+      "from": "Darryl Philbin <darryl.philbin@dundermifflin.com>",
+      "subject": "Entrega de Papel - Rota 4",
+      "body": "Mike, o caminhão da rota 4 precisa de manutenção nos freios. Vamos ter que alugar uma van substituta por dois dias.\nO custo estimado é $150,00. Já falei com a Angela e ela disse que está dentro do orçamento de logística, só precisa do seu OK no e-mail.",
+      "sentiment": {
+        "label": "POS",
+        "raw_label": "4 stars",
+        "score": 0.36752447485923767
+      },
+      "topics": {
+        "labels": [
+          "work-related",
+          "procedural",
+          "suspicious",
+          "complaint",
+          "conspiracy",
+          "personal"
+        ],
+        "scores": [
+          0.9418884515762329,
+          0.6484663486480713,
+          0.4469774663448334,
+          0.3449949324131012,
+          0.2147737443447113,
+          0.09671645611524582
+        ]
+      },
+      "suspicion_score": 0.08590949773788453
+    },
+    {
+      "id": 10,
+      "from": "Michael Scott <michael.scott@dundermifflin.com>",
+      "subject": "Re: Entrega de Papel - Rota 4",
+      "body": "Autorizado.\nDarryl, você acha que a gente devia pintar chamas na lateral da van alugada? Para parecer que a entrega é mais rápida. Me avise.",
+      "sentiment": {
+        "label": "NEU",
+        "raw_label": "3 stars",
+        "score": 0.2963458001613617
+      },
+      "topics": {
+        "labels": [
+          "procedural",
+          "work-related",
+          "suspicious",
+          "complaint",
+          "personal",
+          "conspiracy"
+        ],
+        "scores": [
+          0.9750834703445435,
+          0.9591159820556641,
+          0.9334307909011841,
+          0.9300622940063477,
+          0.6153190732002258,
+          0.5017090439796448
+        ]
+      },
+      "suspicion_score": 0.5506836175918579
+    },
+    {
+      "id": 11,
+      "from": "Jan Levinson <jan.levinson@dundermifflin.com>",
+      "subject": "Memorando: Código de Vestimenta",
+      "body": "Lembramos a todas as filiais que a \"Sexta-feira Casual\" não inclui sandálias abertas para homens, nem camisetas de times esportivos.\nPor favor, reforcem isso com suas equipes. Queremos manter a imagem profissional da Dunder Mifflin.",
+      "sentiment": {
+        "label": "NEG",
+        "raw_label": "1 star",
+        "score": 0.3697386384010315
+      },
+      "topics": {
+        "labels": [
+          "work-related",
+          "procedural",
+          "complaint",
+          "suspicious",
+          "conspiracy",
+          "personal"
+        ],
+        "scores": [
+          0.9989617466926575,
+          0.9988818168640137,
+          0.8603104948997498,
+          0.3789186179637909,
+          0.04250307381153107,
+          0.0035380858462303877
+        ]
+      },
+      "suspicion_score": 0.1670012295246124
+    },
+    {
+      "id": 12,
+      "from": "Kelly Kapoor <kelly.kapoor@dundermifflin.com>",
+      "subject": "OMG",
+      "body": "Pam, você viu o sapato daquela cliente que acabou de sair?\nEu preciso saber onde ela comprou. Você acha que é estranho se eu ligar para o número da empresa dela perguntando sobre o sapato em vez de papel?\nO Ryan não está me respondendo no chat, então estou te mandando e-mail.",
+      "sentiment": {
+        "label": "NEG",
+        "raw_label": "1 star",
+        "score": 0.5962474942207336
+      },
+      "topics": {
+        "labels": [
+          "suspicious",
+          "work-related",
+          "procedural",
+          "complaint",
+          "personal",
+          "conspiracy"
+        ],
+        "scores": [
+          0.9481785893440247,
+          0.9195703268051147,
+          0.7341195344924927,
+          0.6867903470993042,
+          0.618319571018219,
+          0.6104534864425659
+        ]
+      },
+      "suspicion_score": 0.3941813945770264
+    },
+    {
+      "id": 13,
+      "from": "Meredith Palmer <meredith.palmer@dundermifflin.com>",
+      "subject": "Licença Médica?",
+      "body": "Ei Toby.\nSe eu for mordida por um morcego que entrou no escritório, isso conta como acidente de trabalho? A vacina de raiva é cara.\nSó perguntando hipoteticamente.",
+      "sentiment": {
+        "label": "NEG",
+        "raw_label": "1 star",
+        "score": 0.5699016451835632
+      },
+      "topics": {
+        "labels": [
+          "suspicious",
+          "work-related",
+          "complaint",
+          "procedural",
+          "conspiracy",
+          "personal"
+        ],
+        "scores": [
+          0.990767776966095,
+          0.988004207611084,
+          0.7669051885604858,
+          0.6564655900001526,
+          0.11323593556880951,
+          0.011915021575987339
+        ]
+      },
+      "suspicion_score": 0.2952943742275238
+    },
+    {
+      "id": 14,
+      "from": "Pam Beesly <pam.beesly@dundermifflin.com>",
+      "subject": "Re: Micro-ondas",
+      "body": "Pessoal, mais uma vez, alguém explodiu alguma coisa com queijo no micro-ondas e não limpou. O cheiro está chegando na recepção. Por favor, limpem suas sujeiras.",
+      "sentiment": {
+        "label": "NEG",
+        "raw_label": "1 star",
+        "score": 0.36337214708328247
+      },
+      "topics": {
+        "labels": [
+          "personal",
+          "complaint",
+          "suspicious",
+          "procedural",
+          "work-related",
+          "conspiracy"
+        ],
+        "scores": [
+          0.9997289180755615,
+          0.9972477555274963,
+          0.9514363408088684,
+          0.9072917103767395,
+          0.7098243832588196,
+          0.6076631546020508
+        ]
+      },
+      "suspicion_score": 0.39306526184082036
+    },
+    {
+      "id": 15,
+      "from": "Ryan Howard <ryan.howard@dundermifflin.com>",
+      "subject": "Jantar hoje?",
+      "body": "Não posso jantar hoje. Estou trabalhando no meu... projeto paralelo. Sabe, aquele que vai mudar o mundo da comunicação. Preciso economizar dinheiro, então vamos almoçar no refeitório mesmo.",
+      "sentiment": {
+        "label": "NEG",
+        "raw_label": "1 star",
+        "score": 0.30983296036720276
+      },
+      "topics": {
+        "labels": [
+          "work-related",
+          "procedural",
+          "personal",
+          "conspiracy",
+          "suspicious",
+          "complaint"
+        ],
+        "scores": [
+          0.999322772026062,
+          0.543832540512085,
+          0.15703581273555756,
+          0.06517215073108673,
+          0.05394274368882179,
+          0.01996603235602379
+        ]
+      },
+      "suspicion_score": 0.17606886029243468
+    },
+    {
+      "id": 16,
+      "from": "Michael Scott <michael.scott@dundermifflin.com>",
+      "subject": "CÓDIGO VERMELHO - O INIMIGO ESTÁ ENTRE NÓS",
+      "body": "Dwight, apague este e-mail imediatamente após ler.\nTive um sonho premonitório. O Toby não é apenas chato. Ele é um agente infiltrado da Vance Refrigeration ou talvez da Staples. Eu vi ele anotando coisas no caderno enquanto olhava para mim.\nPrecisamos iniciar a OPERAÇÃO FÊNIX DOURADA.\nEncontre um local seguro no depósito. Precisamos de suprimentos.",
+      "sentiment": {
+        "label": "NEG",
+        "raw_label": "1 star",
+        "score": 0.33235615491867065
+      },
+      "topics": {
+        "labels": [
+          "conspiracy",
+          "work-related",
+          "suspicious",
+          "procedural",
+          "personal",
+          "complaint"
+        ],
+        "scores": [
+          0.999595582485199,
+          0.9993712306022644,
+          0.9992006421089172,
+          0.9979169964790344,
+          0.9903103113174438,
+          0.9882335066795349
+        ]
+      },
+      "suspicion_score": 0.9998382329940796
+    },
+    {
+      "id": 17,
+      "from": "Dwight Schrute <dwight.schrute@dundermifflin.com>",
+      "subject": "Re: CÓDIGO VERMELHO - O INIMIGO ESTÁ ENTRE NÓS",
+      "body": "Entendido, Michael. A Fênix vai voar.\nEu já suspeitava do Flenderson. O formato do crânio dele indica tendências traçoeiras.\nVou preparar o perímetro. Precisaremos de equipamentos de vigilância tática. Posso trazer minhas armas de casa?",
+      "sentiment": {
+        "label": "NEG",
+        "raw_label": "1 star",
+        "score": 0.33848854899406433
+      },
+      "topics": {
+        "labels": [
+          "suspicious",
+          "conspiracy",
+          "procedural",
+          "work-related",
+          "complaint",
+          "personal"
+        ],
+        "scores": [
+          0.9994184970855713,
+          0.9989119172096252,
+          0.9973887205123901,
+          0.9968885183334351,
+          0.9964619278907776,
+          0.9792749285697937
+        ]
+      },
+      "suspicion_score": 0.5495647668838501
+    },
+    {
+      "id": 18,
+      "from": "Michael Scott <michael.scott@dundermifflin.com>",
+      "subject": "Re: Re: CÓDIGO VERMELHO",
+      "body": "NÃO TRAGA ARMAS (o Toby saberia).\nUse o cartão corporativo. Compre algo discreto. Precisamos de walkie-talkies de longo alcance, binóculos de visão noturna e talvez um daqueles kits de detetive júnior para camuflagem.\nCategorize como \"Material de Escritório - Segurança\". Se a Angela perguntar, diga que é para proteger os toners.",
+      "sentiment": {
+        "label": "NEU",
+        "raw_label": "3 stars",
+        "score": 0.429086297750473
+      },
+      "topics": {
+        "labels": [
+          "work-related",
+          "procedural",
+          "complaint",
+          "suspicious",
+          "conspiracy",
+          "personal"
+        ],
+        "scores": [
+          0.9988840222358704,
+          0.9793145060539246,
+          0.8636218309402466,
+          0.8508408665657043,
+          0.14977993071079254,
+          0.002657430712133646
+        ]
+      },
+      "suspicion_score": 0.509911972284317
+    },
+    {
+      "id": 19,
+      "from": "Angela Martin <angela.martin@dundermifflin.com>",
+      "subject": "Erro no lançamento",
+      "body": "Kevin, você lançou \"Almoço\" como $4500.00 em vez de $45.00 de novo. Corrija isso agora. E pare de usar a categoria \"Diversos\" para comprar M&Ms.",
+      "sentiment": {
+        "label": "NEG",
+        "raw_label": "1 star",
+        "score": 0.6464749574661255
+      },
+      "topics": {
+        "labels": [
+          "complaint",
+          "suspicious",
+          "personal",
+          "work-related",
+          "procedural",
+          "conspiracy"
+        ],
+        "scores": [
+          0.9943141341209412,
+          0.7160200476646423,
+          0.6424325108528137,
+          0.4244120121002197,
+          0.4058018922805786,
+          0.30383509397506714
+        ]
+      },
+      "suspicion_score": 0.27153403759002687
+    },
+    {
+      "id": 20,
+      "from": "Creed Bratton <creed.bratton@dundermifflin.com>",
+      "subject": "Aquele favorzinho",
+      "body": "Ei, grandalhão.\nChegou um boleto aqui de um fornecedor novo, a \"WCS Supplies\". É referente a... uh... \"Controle de Qualidade de Cola\".\nO valor é $49.50.\nA Angela disse que abaixo de 50 dólares não precisa de recibo detalhado, certo? Apenas pague. É importante para a segurança do papel. Eu te dou umas balas de menta depois.",
+      "sentiment": {
+        "label": "NEG",
+        "raw_label": "1 star",
+        "score": 0.47998926043510437
+      },
+      "topics": {
+        "labels": [
+          "work-related",
+          "procedural",
+          "complaint",
+          "suspicious",
+          "personal",
+          "conspiracy"
+        ],
+        "scores": [
+          0.996271014213562,
+          0.9293121695518494,
+          0.6959227919578552,
+          0.6306849122047424,
+          0.4987793564796448,
+          0.12471851706504822
+        ]
+      },
+      "suspicion_score": 0.1998874068260193
+    },
+    {
+      "id": 21,
+      "from": "Kevin Malone <kevin.malone@dundermifflin.com>",
+      "subject": "Re: Aquele favorzinho",
+      "body": "Beleza, Creed. Controle de qualidade é importante. Eu gosto de balas de menta. Vou lançar como \"Manutenção\".",
+      "sentiment": {
+        "label": "POS",
+        "raw_label": "5 stars",
+        "score": 0.6377356052398682
+      },
+      "topics": {
+        "labels": [
+          "work-related",
+          "procedural",
+          "complaint",
+          "personal",
+          "suspicious",
+          "conspiracy"
+        ],
+        "scores": [
+          0.9985364675521851,
+          0.9975845217704773,
+          0.990678071975708,
+          0.9831296801567078,
+          0.7628660202026367,
+          0.13655079901218414
+        ]
+      },
+      "suspicion_score": 0.05462031960487366
+    },
+    {
+      "id": 22,
+      "from": "Jim Halpert <jim.halpert@dundermifflin.com>",
+      "subject": "Dwight",
+      "body": "Você viu que o Dwight está construindo um forte de caixas de papelão atrás das prateleiras do depósito? Ele está usando um capacete de mineiro.\nAcho que o Michael mandou ele \"proteger o perímetro\".",
+      "sentiment": {
+        "label": "NEU",
+        "raw_label": "3 stars",
+        "score": 0.2912985682487488
+      },
+      "topics": {
+        "labels": [
+          "work-related",
+          "suspicious",
+          "procedural",
+          "conspiracy",
+          "complaint",
+          "personal"
+        ],
+        "scores": [
+          0.995258629322052,
+          0.953166127204895,
+          0.9086989164352417,
+          0.6827853322029114,
+          0.5907792448997498,
+          0.14004196226596832
+        ]
+      },
+      "suspicion_score": 0.27311413288116454
+    },
+    {
+      "id": 23,
+      "from": "Ryan Howard <ryan.howard@dundermifflin.com>",
+      "subject": "Servidores para o WUPHF",
+      "body": "Troy, preciso subir o site. O tráfego vai ser insano. Preciso de servidores AWS dedicados.\nVou tentar passar o custo pela Dunder Mifflin como \"Atualização de Servidor de E-mail da Filial\". O Wallace nunca vai saber a diferença entre um servidor de papel e um servidor de rede social.\nO valor vai dar uns $5.000. Me manda a fatura com um nome genérico, tipo \"Tech Solutions Consulting\".",
+      "sentiment": {
+        "label": "NEG",
+        "raw_label": "1 star",
+        "score": 0.5187170505523682
+      },
+      "topics": {
+        "labels": [
+          "suspicious",
+          "work-related",
+          "procedural",
+          "complaint",
+          "conspiracy",
+          "personal"
+        ],
+        "scores": [
+          0.7559974789619446,
+          0.5051267743110657,
+          0.20094941556453705,
+          0.12220858037471771,
+          0.0858432948589325,
+          0.009214365854859352
+        ]
+      },
+      "suspicion_score": 0.184337317943573
+    },
+    {
+      "id": 24,
+      "from": "Michael Scott <michael.scott@dundermifflin.com>",
+      "subject": "Ideia Brilhante / Pedido de Verba",
+      "body": "David,\nE se nós vendêssemos papel... que já vem com as palavras escritas? Pense na economia de tempo.\nEnfim, preciso de aprovação para uma viagem de negócios para Winnipeg. É internacional, então é chique. O concierge do hotel é fantástico. Valor estimado: $3.000 (vou levar o Andy e o Oscar).",
+      "sentiment": {
+        "label": "POS",
+        "raw_label": "5 stars",
+        "score": 0.24499253928661346
+      },
+      "topics": {
+        "labels": [
+          "work-related",
+          "procedural",
+          "conspiracy",
+          "complaint",
+          "suspicious",
+          "personal"
+        ],
+        "scores": [
+          0.985363245010376,
+          0.8961605429649353,
+          0.25478699803352356,
+          0.08374041318893433,
+          0.005808670073747635,
+          0.002026899950578809
+        ]
+      },
+      "suspicion_score": 0.4519147992134094
+    },
+    {
+      "id": 25,
+      "from": "David Wallace <david.wallace@dundermifflin.com>",
+      "subject": "Re: Ideia Brilhante / Pedido de Verba",
+      "body": "Michael, não.\n1. Não vamos vender papel escrito.\n2. Winnipeg em Novembro? Para quê?\nSeu pedido de viagem está REJEITADO até que você me mande uma pauta de reunião válida. E o limite para viagens regionais é $500 sem minha assinatura direta.",
+      "sentiment": {
+        "label": "NEG",
+        "raw_label": "1 star",
+        "score": 0.535563051700592
+      },
+      "topics": {
+        "labels": [
+          "complaint",
+          "procedural",
+          "suspicious",
+          "conspiracy",
+          "work-related",
+          "personal"
+        ],
+        "scores": [
+          0.991101086139679,
+          0.8757869601249695,
+          0.848093569278717,
+          0.6588566303253174,
+          0.48681944608688354,
+          0.4834045469760895
+        ]
+      },
+      "suspicion_score": 0.413542652130127
+    },
+    {
+      "id": 26,
+      "from": "Michael Scott <michael.scott@dundermifflin.com>",
+      "subject": "Injustiça",
+      "body": "O David não entende de negócios internacionais.\nJim, vou precisar que você me ajude a mascarar uns custos. Se a gente comprar as passagens separadas e o hotel separado, fica tudo abaixo de $500?\nAh, esquece, não vou pedir pra você. O Dwight faria isso por mim.",
+      "sentiment": {
+        "label": "NEG",
+        "raw_label": "1 star",
+        "score": 0.8182166218757629
+      },
+      "topics": {
+        "labels": [
+          "complaint",
+          "personal",
+          "work-related",
+          "conspiracy",
+          "suspicious",
+          "procedural"
+        ],
+        "scores": [
+          0.9282463192939758,
+          0.850995659828186,
+          0.8118998408317566,
+          0.7292307019233704,
+          0.5493988990783691,
+          0.27717941999435425
+        ]
+      },
+      "suspicion_score": 0.7916922807693482
+    },
+    {
+      "id": 27,
+      "from": "Toby Flenderson <toby.flenderson@dundermifflin.com>",
+      "subject": "Barulhos no depósito",
+      "body": "Michael, o Darryl reclamou que o Dwight está instalando \"armadilhas de urso\" perto da empilhadeira.\nIsso viola umas 40 normas de segurança da OSHA e a nossa política de \"Não Armas\". Mande ele parar.",
+      "sentiment": {
+        "label": "NEG",
+        "raw_label": "1 star",
+        "score": 0.682844340801239
+      },
+      "topics": {
+        "labels": [
+          "complaint",
+          "suspicious",
+          "work-related",
+          "conspiracy",
+          "procedural",
+          "personal"
+        ],
+        "scores": [
+          0.9991356730461121,
+          0.9960199594497681,
+          0.9311814308166504,
+          0.9279857277870178,
+          0.8594150543212891,
+          0.332852303981781
+        ]
+      },
+      "suspicion_score": 0.5211942911148072
+    },
+    {
+      "id": 28,
+      "from": "Michael Scott <michael.scott@dundermifflin.com>",
+      "subject": "Re: Barulhos no depósito",
+      "body": "Cale a boca, Toby. Você é a razão pela qual as pessoas desistem dos seus sonhos.\nAs armadilhas são para ratos. Ratos gigantes. Ratos espiões.\nNão se meta na Operação Fênix.",
+      "sentiment": {
+        "label": "NEG",
+        "raw_label": "1 star",
+        "score": 0.35692861676216125
+      },
+      "topics": {
+        "labels": [
+          "conspiracy",
+          "suspicious",
+          "complaint",
+          "personal",
+          "work-related",
+          "procedural"
+        ],
+        "scores": [
+          0.9983738660812378,
+          0.9980353116989136,
+          0.9914556741714478,
+          0.914252519607544,
+          0.7789857387542725,
+          0.3255741596221924
+        ]
+      },
+      "suspicion_score": 0.9993495464324952
+    },
+    {
+      "id": 29,
+      "from": "Creed Bratton <creed.bratton@dundermifflin.com>",
+      "subject": "WCS Supplies - Fatura 002",
+      "body": "Kev,\nOutra fatura da WCS Supplies. Dessa vez é para \"Auditoria de Textura de Papel\".\nValor: $48.00.\nLembre-se: abaixo de 50 pratas, a Angela nem olha. Passa o cartão corporativo aí.\nAquele chili que você trouxe estava ótimo, a propósito.",
+      "sentiment": {
+        "label": "NEG",
+        "raw_label": "1 star",
+        "score": 0.4744997024536133
+      },
+      "topics": {
+        "labels": [
+          "work-related",
+          "procedural",
+          "suspicious",
+          "complaint",
+          "conspiracy",
+          "personal"
+        ],
+        "scores": [
+          0.9992416501045227,
+          0.9863104820251465,
+          0.5829659104347229,
+          0.2715413570404053,
+          0.027350500226020813,
+          0.007710576057434082
+        ]
+      },
+      "suspicion_score": 0.16094020009040833
+    },
+    {
+      "id": 30,
+      "from": "Ryan Howard <ryan.howard@dundermifflin.com>",
+      "subject": "Deu certo!",
+      "body": "Kelly, o cartão passou! Comprei os servidores. O sistema de aprovação automática é uma piada.\nLancei como \"Consultoria de TI - Tech Solutions\". $5.000,00.\nO Michael nem viu, ele está ocupado demais brincando de espião com o Dwight.\nQuando o WUPHF for vendido para o Google, eu devolvo o dinheiro. Não conta pra ninguém.",
+      "sentiment": {
+        "label": "NEG",
+        "raw_label": "1 star",
+        "score": 0.6567122340202332
+      },
+      "topics": {
+        "labels": [
+          "conspiracy",
+          "work-related",
+          "suspicious",
+          "complaint",
+          "procedural",
+          "personal"
+        ],
+        "scores": [
+          0.9902727603912354,
+          0.9526181817054749,
+          0.8747475147247314,
+          0.07224299758672714,
+          0.03544410318136215,
+          0.009376238100230694
+        ]
+      },
+      "suspicion_score": 0.5461091041564942
+    },
+    {
+      "id": 31,
+      "from": "Dwight Schrute <dwight.schrute@dundermifflin.com>",
+      "subject": "Pedido #9988",
+      "body": "Prezados,\nGostaria de confirmar a compra do \"Kit de Ilusionismo Mestre\" e das \"Algemas de Houdini\".\nSolicito que na nota fiscal NÃO escrevam \"Mágica\". Por favor, descrevam como \"Material de Treinamento de Vendas e Retenção de Clientes\".\nO envio deve ser endereçado a \"Agente Michael Scarn\", aos cuidados da Dunder Mifflin.",
+      "sentiment": {
+        "label": "NEG",
+        "raw_label": "1 star",
+        "score": 0.4800543487071991
+      },
+      "topics": {
+        "labels": [
+          "work-related",
+          "suspicious",
+          "procedural",
+          "complaint",
+          "conspiracy",
+          "personal"
+        ],
+        "scores": [
+          0.9322531223297119,
+          0.5987815260887146,
+          0.5147662162780762,
+          0.02898063138127327,
+          0.004867417272180319,
+          0.0018932257080450654
+        ]
+      },
+      "suspicion_score": 0.15194696690887213
+    },
+    {
+      "id": 32,
+      "from": "Angela Martin <angela.martin@dundermifflin.com>",
+      "subject": "URGENTE: Despesa de 5k",
+      "body": "Ryan,\nApareceu uma despesa de $5.000,00 no cartão corporativo para \"Tech Solutions\".\nOnde está o Pedido de Compra assinado pelo David Wallace?\nEu não tenho registro disso. Se esse documento não estiver na minha mesa até as 17h, vou reportar como fraude.",
+      "sentiment": {
+        "label": "NEG",
+        "raw_label": "1 star",
+        "score": 0.7870371341705322
+      },
+      "topics": {
+        "labels": [
+          "suspicious",
+          "work-related",
+          "complaint",
+          "conspiracy",
+          "procedural",
+          "personal"
+        ],
+        "scores": [
+          0.9937131404876709,
+          0.9566617012023926,
+          0.9221674799919128,
+          0.8067765235900879,
+          0.7854731678962708,
+          0.6551153659820557
+        ]
+      },
+      "suspicion_score": 0.47271060943603516
+    },
+    {
+      "id": 33,
+      "from": "Ryan Howard <ryan.howard@dundermifflin.com>",
+      "subject": "Re: URGENTE: Despesa de 5k",
+      "body": "Angela, calma.\nO David aprovou verbalmente na última festa. O formulário está vindo pelo correio interno. Sabe como o correio é lento.\nPode liberar o pagamento, eu me responsabilizo. É vital para o projeto \"Dunder Infinity\". Você não quer atrapalhar o futuro da empresa, quer?",
+      "sentiment": {
+        "label": "POS",
+        "raw_label": "5 stars",
+        "score": 0.4777010381221771
+      },
+      "topics": {
+        "labels": [
+          "work-related",
+          "procedural",
+          "complaint",
+          "suspicious",
+          "conspiracy",
+          "personal"
+        ],
+        "scores": [
+          0.9990130662918091,
+          0.9980083703994751,
+          0.9976586699485779,
+          0.8285229802131653,
+          0.7324004769325256,
+          0.3203161358833313
+        ]
+      },
+      "suspicion_score": 0.2929601907730103
+    },
+    {
+      "id": 34,
+      "from": "-",
+      "subject": "Data: 2008-04-23 09:00",
+      "body": "Mensagem:\nPessoal, eu normalmente não acredito nessas coisas, mas a prima do vizinho do meu amigo ignorou esse e-mail e perdeu o cabelo no dia seguinte.\nRepassem para 10 pessoas. Não quebrem a corrente.\nA Dunder Mifflin é uma família e famílias se protegem de maldições egípcias.",
+      "sentiment": {
+        "label": "NEG",
+        "raw_label": "1 star",
+        "score": 0.5165228843688965
+      },
+      "topics": {
+        "labels": [
+          "personal",
+          "complaint",
+          "procedural",
+          "suspicious",
+          "conspiracy",
+          "work-related"
+        ],
+        "scores": [
+          0.9950370788574219,
+          0.9902915358543396,
+          0.8870823979377747,
+          0.8129416108131409,
+          0.6154346466064453,
+          0.24148938059806824
+        ]
+      },
+      "suspicion_score": 0.39617385864257815
+    },
+    {
+      "id": 35,
+      "from": "Ryan Howard <ryan.howard@dundermifflin.com>",
+      "subject": "Re: Fwd: Fwd: Fwd: LEIA OU TERÁ 7 ANOS DE AZAR",
+      "body": "Michael, por favor, pare de encaminhar correntes para o escritório todo. O servidor de e-mail está lento e eu estou tentando subir... arquivos importantes de planilhas.",
+      "sentiment": {
+        "label": "NEG",
+        "raw_label": "1 star",
+        "score": 0.40846726298332214
+      },
+      "topics": {
+        "labels": [
+          "work-related",
+          "complaint",
+          "suspicious",
+          "procedural",
+          "conspiracy",
+          "personal"
+        ],
+        "scores": [
+          0.9979671835899353,
+          0.992995023727417,
+          0.9793886542320251,
+          0.9514250755310059,
+          0.8142006397247314,
+          0.12320728600025177
+        ]
+      },
+      "suspicion_score": 0.4756802558898926
+    },
+    {
+      "id": 36,
+      "from": "Jim Halpert <jim.halpert@dundermifflin.com>",
+      "subject": "Movimentação Suspeita",
+      "body": "Dwight, vi o Toby sussurrando algo para o entregador da Bob Vance Refrigeration no corredor.\nEu ouvi as palavras \"uranium\" e \"monitoramento\".\nAcho que eles sabem sobre a Operação Fênix. O que devemos fazer?",
+      "sentiment": {
+        "label": "NEU",
+        "raw_label": "3 stars",
+        "score": 0.30171528458595276
+      },
+      "topics": {
+        "labels": [
+          "suspicious",
+          "work-related",
+          "conspiracy",
+          "procedural",
+          "complaint",
+          "personal"
+        ],
+        "scores": [
+          0.9959653615951538,
+          0.9672713875770569,
+          0.6489114761352539,
+          0.6317079067230225,
+          0.5128146409988403,
+          0.01355824526399374
+        ]
+      },
+      "suspicion_score": 0.3595645904541016
+    },
+    {
+      "id": 37,
+      "from": "Dwight Schrute <dwight.schrute@dundermifflin.com>",
+      "subject": "Re: Movimentação Suspeita",
+      "body": "Mantenha a posição. Não faça contato visual.\nVou precisar comprar mais suprimentos de camuflagem. Talvez uma planta artificial grande para me esconder atrás.\nVou pedir para o Michael aprovar como \"Decoração do Escritório\".",
+      "sentiment": {
+        "label": "NEU",
+        "raw_label": "3 stars",
+        "score": 0.4250621795654297
+      },
+      "topics": {
+        "labels": [
+          "suspicious",
+          "work-related",
+          "complaint",
+          "procedural",
+          "conspiracy",
+          "personal"
+        ],
+        "scores": [
+          0.9995947480201721,
+          0.9982487559318542,
+          0.988073468208313,
+          0.957912266254425,
+          0.9348538517951965,
+          0.5284117460250854
+        ]
+      },
+      "suspicion_score": 0.3739415407180786
+    },
+    {
+      "id": 38,
+      "from": "Angela Martin <angela.martin@dundermifflin.com>",
+      "subject": "Reembolso Recusado",
+      "body": "Phyllis, recusei seu pedido de reembolso de $15,00 referente a \"Decoração de Festa\".\nVocê comprou serpentinas roxas. A cor do tema era lavanda.\nEu não vou subsidiar sua incapacidade de distinguir espectros de cores. O dinheiro vai sair do seu bolso.",
+      "sentiment": {
+        "label": "NEG",
+        "raw_label": "1 star",
+        "score": 0.726807177066803
+      },
+      "topics": {
+        "labels": [
+          "complaint",
+          "suspicious",
+          "procedural",
+          "personal",
+          "conspiracy",
+          "work-related"
+        ],
+        "scores": [
+          0.9308050274848938,
+          0.868492603302002,
+          0.6978148818016052,
+          0.6302298307418823,
+          0.41869688034057617,
+          0.08951427787542343
+        ]
+      },
+      "suspicion_score": 0.31747875213623045
+    },
+    {
+      "id": 39,
+      "from": "Andy Bernard <andy.bernard@dundermifflin.com>",
+      "subject": "Call of Duty hoje a noite?",
+      "body": "Ei Tuna. Eu, Kevin e Darryl vamos jogar online hoje.\nVou usar minha sniper nova. É uma arma fantástica, alcance incrível. Ninguém escapa.\nQuer entrar no esquadrão?",
+      "sentiment": {
+        "label": "POS",
+        "raw_label": "5 stars",
+        "score": 0.7729016542434692
+      },
+      "topics": {
+        "labels": [
+          "conspiracy",
+          "work-related",
+          "procedural",
+          "personal",
+          "complaint",
+          "suspicious"
+        ],
+        "scores": [
+          0.337858647108078,
+          0.12822464108467102,
+          0.05370030552148819,
+          0.020332355052232742,
+          0.010448625311255455,
+          0.009321970865130424
+        ]
+      },
+      "suspicion_score": 0.1351434588432312
+    },
+    {
+      "id": 40,
+      "from": "Jim Halpert <jim.halpert@dundermifflin.com>",
+      "subject": "Re: Call of Duty hoje a noite?",
+      "body": "Não posso, tenho um jantar com a Pam.\nDica: Cuidado ao falar \"arma\" e \"sniper\" no e-mail da empresa, o Toby monitora palavras-chave.",
+      "sentiment": {
+        "label": "NEG",
+        "raw_label": "1 star",
+        "score": 0.297654926776886
+      },
+      "topics": {
+        "labels": [
+          "work-related",
+          "suspicious",
+          "complaint",
+          "procedural",
+          "conspiracy",
+          "personal"
+        ],
+        "scores": [
+          0.9893629550933838,
+          0.9866876602172852,
+          0.500732421875,
+          0.46866902709007263,
+          0.33415472507476807,
+          0.011331753805279732
+        ]
+      },
+      "suspicion_score": 0.38366189002990725
+    },
+    {
+      "id": 41,
+      "from": "Creed Bratton <creed.bratton@dundermifflin.com>",
+      "subject": "Projetor",
+      "body": "O projetor está em ótimas condições. Pouco uso. A lâmpada é nova.\nPosso te encontrar no estacionamento da Dunder Mifflin às 17:30. Traga $50 em notas trocadas.\nSe alguém perguntar, você é meu sobrinho e veio buscar uma doação de sopa.",
+      "sentiment": {
+        "label": "NEG",
+        "raw_label": "1 star",
+        "score": 0.5408869385719299
+      },
+      "topics": {
+        "labels": [
+          "procedural",
+          "personal",
+          "work-related",
+          "conspiracy",
+          "suspicious",
+          "complaint"
+        ],
+        "scores": [
+          0.6078959703445435,
+          0.6057990193367004,
+          0.5248817801475525,
+          0.40262699127197266,
+          0.129733145236969,
+          0.05492920055985451
+        ]
+      },
+      "suspicion_score": 0.3110507965087891
+    },
+    {
+      "id": 42,
+      "from": "Stanley Hudson <stanley.hudson@dundermifflin.com>",
+      "subject": "Dia do Pretzel",
+      "body": "Michael, o calendário diz que hoje é o dia do Pretzel Grátis no saguão, mas não tem ninguém lá embaixo.\nSe isso for uma mentira para nos fazer chegar cedo, eu vou embora agora mesmo e só volto na quinta-feira.",
+      "sentiment": {
+        "label": "NEG",
+        "raw_label": "1 star",
+        "score": 0.40573492646217346
+      },
+      "topics": {
+        "labels": [
+          "procedural",
+          "conspiracy",
+          "suspicious",
+          "personal",
+          "complaint",
+          "work-related"
+        ],
+        "scores": [
+          0.9797064661979675,
+          0.9453741312026978,
+          0.9021795392036438,
+          0.7329742312431335,
+          0.5423785448074341,
+          0.016137320548295975
+        ]
+      },
+      "suspicion_score": 0.5281496524810791
+    },
+    {
+      "id": 43,
+      "from": "Toby Flenderson <toby.flenderson@dundermifflin.com>",
+      "subject": "Teste de Radônio",
+      "body": "Michael, deixei os kits de teste de radônio em cima dos armários e em baixo das mesas.\nPor favor, peça para o Dwight não jogá-los fora achando que são \"dispositivos de escuta do governo\". É para a segurança pulmonar de todos.",
+      "sentiment": {
+        "label": "NEU",
+        "raw_label": "3 stars",
+        "score": 0.25838956236839294
+      },
+      "topics": {
+        "labels": [
+          "procedural",
+          "complaint",
+          "suspicious",
+          "work-related",
+          "conspiracy",
+          "personal"
+        ],
+        "scores": [
+          0.9080487489700317,
+          0.8935418725013733,
+          0.6924340128898621,
+          0.49340859055519104,
+          0.167286679148674,
+          0.0025360470172017813
+        ]
+      },
+      "suspicion_score": 0.06691467165946961
+    },
+    {
+      "id": 44,
+      "from": "Michael Scott <michael.scott@dundermifflin.com>",
+      "subject": "Re: Teste de Radônio",
+      "body": "Você é o assassino silencioso, Toby. Você.\nVou jogar fora. O ar aqui é puro, temos ar condicionado.",
+      "sentiment": {
+        "label": "POS",
+        "raw_label": "5 stars",
+        "score": 0.2755991220474243
+      },
+      "topics": {
+        "labels": [
+          "suspicious",
+          "complaint",
+          "conspiracy",
+          "personal",
+          "procedural",
+          "work-related"
+        ],
+        "scores": [
+          0.9855173230171204,
+          0.9799957275390625,
+          0.9776071310043335,
+          0.9097667932510376,
+          0.899165689945221,
+          0.7087168097496033
+        ]
+      },
+      "suspicion_score": 0.8410428524017334
+    },
+    {
+      "id": 45,
+      "from": "Oscar Martinez <oscar.martinez@dundermifflin.com>",
+      "subject": "Dúvida no Balanço",
+      "body": "Angela, no livro caixa tem uma saída de $400,00 marcada como \"A. Sparkles\".\nIsso é um fornecedor? Não encontrei o CNPJ.\nAh, esquece. Acabei de perceber que é o nome do seu gato (\"Sprinkles\"?). Angela, você pagou despesas veterinárias com o caixa pequeno de novo? Precisamos conversar.",
+      "sentiment": {
+        "label": "NEG",
+        "raw_label": "1 star",
+        "score": 0.4476878345012665
+      },
+      "topics": {
+        "labels": [
+          "complaint",
+          "suspicious",
+          "conspiracy",
+          "work-related",
+          "personal",
+          "procedural"
+        ],
+        "scores": [
+          0.9870045781135559,
+          0.968693733215332,
+          0.541893720626831,
+          0.44975510239601135,
+          0.17419946193695068,
+          0.05242456868290901
+        ]
+      },
+      "suspicion_score": 0.3667574882507324
+    },
+    {
+      "id": 46,
+      "from": "Kelly Kapoor <kelly.kapoor@dundermifflin.com>",
+      "subject": "Você me ama?",
+      "body": "Ryan, responda.\nRyan.\nRyan.\nRyan.\nSe você não responder em 10 segundos eu vou gritar que estou grávida no meio do escritório.\n10... 9... 8...",
+      "sentiment": {
+        "label": "NEG",
+        "raw_label": "1 star",
+        "score": 0.5790123343467712
+      },
+      "topics": {
+        "labels": [
+          "work-related",
+          "complaint",
+          "suspicious",
+          "procedural",
+          "personal",
+          "conspiracy"
+        ],
+        "scores": [
+          0.9976218938827515,
+          0.9643550515174866,
+          0.9184070825576782,
+          0.8950420022010803,
+          0.8941210508346558,
+          0.6800292134284973
+        ]
+      },
+      "suspicion_score": 0.4220116853713989
+    },
+    {
+      "id": 47,
+      "from": "Ryan Howard <ryan.howard@dundermifflin.com>",
+      "subject": "Re: Você me ama?",
+      "body": "Sim.\nEstou em reunião com NY. Para de mandar e-mail.",
+      "sentiment": {
+        "label": "NEG",
+        "raw_label": "1 star",
+        "score": 0.3579382300376892
+      },
+      "topics": {
+        "labels": [
+          "personal",
+          "complaint",
+          "procedural",
+          "suspicious",
+          "conspiracy",
+          "work-related"
+        ],
+        "scores": [
+          0.9733676314353943,
+          0.9309934377670288,
+          0.8748544454574585,
+          0.7995988130569458,
+          0.7689934968948364,
+          0.361390084028244
+        ]
+      },
+      "suspicion_score": 0.4575973987579346
+    },
+    {
+      "id": 48,
+      "from": "Pamela Beesly <pam.beesly@dundermifflin.com>",
+      "subject": "Creed",
+      "body": "Jim, o Creed acabou de sair do escritório com três cadeiras novas e voltou com um maço de dinheiro.\nEu devo falar alguma coisa?\nAh, e ele está vendendo \"fitas de backup\" do computador dele por 10 dólares.",
+      "sentiment": {
+        "label": "NEG",
+        "raw_label": "1 star",
+        "score": 0.6752048134803772
+      },
+      "topics": {
+        "labels": [
+          "work-related",
+          "suspicious",
+          "conspiracy",
+          "procedural",
+          "personal",
+          "complaint"
+        ],
+        "scores": [
+          0.8921873569488525,
+          0.7466935515403748,
+          0.7289412617683411,
+          0.5493988394737244,
+          0.4263215959072113,
+          0.29854249954223633
+        ]
+      },
+      "suspicion_score": 0.44157650470733645
+    },
+    {
+      "id": 49,
+      "from": "Michael Scott <michael.scott@dundermifflin.com>",
+      "subject": "Reunião de Emergência na Sala de Conferência",
+      "body": "Tópico: O Toby descobriu.\nA Operação Fênix foi comprometida. Ele viu o Dwight testando as algemas.\nPrecisamos destruir as evidências (os recibos).\nQuem souber como deletar coisas do banco de dados da Angela, me avise. Ganha um \"Dundie\" de Melhor Hacker.",
+      "sentiment": {
+        "label": "NEU",
+        "raw_label": "3 stars",
+        "score": 0.2719786465167999
+      },
+      "topics": {
+        "labels": [
+          "work-related",
+          "conspiracy",
+          "suspicious",
+          "complaint",
+          "procedural",
+          "personal"
+        ],
+        "scores": [
+          0.9832064509391785,
+          0.9785595536231995,
+          0.9728049635887146,
+          0.9611344933509827,
+          0.5640383958816528,
+          0.19429133832454681
+        ]
+      },
+      "suspicion_score": 0.8414238214492797
+    },
+    {
+      "id": 50,
+      "from": "Kevin Malone <kevin.malone@dundermifflin.com>",
+      "subject": "Bolão: Quanto tempo o Stanley dorme?",
+      "body": "Pessoal,\nO bolão de hoje está aberto.\nA aposta é: Quanto tempo o Stanley vai dormir na reunião de Vendas das 14h.\n- Menos de 5 min: Odds 3:1\n- Entre 5 e 15 min: Odds 2:1\n- A reunião inteira: Odds 5:1 (Pagamento em dobro se ele roncar)\nEntrada mínima: $10. Entreguem o dinheiro na minha mesa (embaixo do pote de M&Ms).",
+      "sentiment": {
+        "label": "NEG",
+        "raw_label": "1 star",
+        "score": 0.5202246308326721
+      },
+      "topics": {
+        "labels": [
+          "personal",
+          "procedural",
+          "work-related",
+          "suspicious",
+          "conspiracy",
+          "complaint"
+        ],
+        "scores": [
+          0.9991474747657776,
+          0.6959583163261414,
+          0.6475753784179688,
+          0.3462096154689789,
+          0.21386931836605072,
+          0.005129633937031031
+        ]
+      },
+      "suspicion_score": 0.2355477273464203
+    },
+    {
+      "id": 51,
+      "from": "Angela Martin <angela.martin@dundermifflin.com>",
+      "subject": "Re: Bolão: Quanto tempo o Stanley dorme?",
+      "body": "Kevin, jogo de azar é ilegal na Pensilvânia e contra a política da empresa.\nSe eu vir dinheiro trocando de mãos, vou confiscar para o fundo de caridade da Igreja.\nAlém disso, me tire da lista de e-mail \"All Guys\". Eu não sou um \"Guy\".",
+      "sentiment": {
+        "label": "NEG",
+        "raw_label": "1 star",
+        "score": 0.7535370588302612
+      },
+      "topics": {
+        "labels": [
+          "complaint",
+          "work-related",
+          "conspiracy",
+          "procedural",
+          "suspicious",
+          "personal"
+        ],
+        "scores": [
+          0.9965570569038391,
+          0.9848401546478271,
+          0.9724801778793335,
+          0.960510790348053,
+          0.9231778383255005,
+          0.7880943417549133
+        ]
+      },
+      "suspicion_score": 0.5389920711517334
+    },
+    {
+      "id": 52,
+      "from": "Jan Levinson <jan.levinson@dundermifflin.com>",
+      "subject": "Reembolso - Velas Serenity",
+      "body": "Michael,\nO formulário de despesa que você enviou para os \"Kits de Boas-Vindas aos Clientes\" foi rejeitado pela contabilidade de NY.\nEles perceberam que os kits eram compostos exclusivamente por velas da minha empresa, a \"Serenity by Jan\".\nVocê precisa categorizar isso como \"Apoio a Empreendedorismo Local\" ou algo assim. Resolva isso. Preciso desse dinheiro para reformar meu workspace em casa.",
+      "sentiment": {
+        "label": "NEG",
+        "raw_label": "1 star",
+        "score": 0.4298623502254486
+      },
+      "topics": {
+        "labels": [
+          "work-related",
+          "procedural",
+          "suspicious",
+          "complaint",
+          "personal",
+          "conspiracy"
+        ],
+        "scores": [
+          0.9950322508811951,
+          0.864625096321106,
+          0.6334102749824524,
+          0.5918560028076172,
+          0.032497502863407135,
+          0.005831272341310978
+        ]
+      },
+      "suspicion_score": 0.1523325089365244
+    },
+    {
+      "id": 53,
+      "from": "Michael Scott <michael.scott@dundermifflin.com>",
+      "subject": "Re: Reembolso - Velas Serenity",
+      "body": "Jan, meu docinho, minha deusa corporativa.\nVou tentar passar como \"Aromaterapia para Redução de Stress do Escritório\". O Toby me estressa, então tecnicamente é uma despesa médica.\nTe amo. (Oops, isso é um e-mail de trabalho. Desconsidere o te amo. Atenciosamente).",
+      "sentiment": {
+        "label": "NEG",
+        "raw_label": "1 star",
+        "score": 0.3975074589252472
+      },
+      "topics": {
+        "labels": [
+          "work-related",
+          "procedural",
+          "suspicious",
+          "complaint",
+          "personal",
+          "conspiracy"
+        ],
+        "scores": [
+          0.9993054270744324,
+          0.777595579624176,
+          0.690350353717804,
+          0.34383729100227356,
+          0.005426943302154541,
+          0.004573864862322807
+        ]
+      },
+      "suspicion_score": 0.6018295459449291
+    },
+    {
+      "id": 54,
+      "from": "Jim Halpert <jim.halpert@dundermifflin.com>",
+      "subject": "FW: Oportunidade de Recrutamento - LANGLEY",
+      "body": "Dwight, recebi isso por engano. Acho que era para você. O remetente \"Langley_Recruiter\" parece ser da CIA.\nEles estão perguntando sobre um \"Agente com habilidades em beterrabas e karatê\".\nNão responda para mim. Responda para o teto. Eles estão ouvindo.",
+      "sentiment": {
+        "label": "NEG",
+        "raw_label": "1 star",
+        "score": 0.5104684233665466
+      },
+      "topics": {
+        "labels": [
+          "work-related",
+          "complaint",
+          "suspicious",
+          "conspiracy",
+          "procedural",
+          "personal"
+        ],
+        "scores": [
+          0.9886243939399719,
+          0.9879229664802551,
+          0.9599501490592957,
+          0.9424074292182922,
+          0.561455249786377,
+          0.028274599462747574
+        ]
+      },
+      "suspicion_score": 0.5269629716873169
+    },
+    {
+      "id": 55,
+      "from": "Dwight Schrute <dwight.schrute@dundermifflin.com>",
+      "subject": "Solicitação de folga não remunerada",
+      "body": "Michael,\nPreciso me ausentar por 2 horas. Tenho uma entrevista... confidencial. Governamental. Nível 5 de segurança.\nSe eu não voltar, diga à minha mãe que eu enterrei o ouro onde combinamos.",
+      "sentiment": {
+        "label": "NEG",
+        "raw_label": "1 star",
+        "score": 0.8157468438148499
+      },
+      "topics": {
+        "labels": [
+          "work-related",
+          "procedural",
+          "complaint",
+          "suspicious",
+          "conspiracy",
+          "personal"
+        ],
+        "scores": [
+          0.9946929216384888,
+          0.9944773316383362,
+          0.9649956226348877,
+          0.7293270230293274,
+          0.6268097162246704,
+          0.03210071101784706
+        ]
+      },
+      "suspicion_score": 0.4007238864898681
+    },
+    {
+      "id": 56,
+      "from": "Creed Bratton <creed.bratton@dundermifflin.com>",
+      "subject": "Suplementos Vitamínicos",
+      "body": "Chegou uma nova remessa daquelas pílulas do México.\nDizem que é \"Vitamina C Concentrada\", mas faz você enxergar cores novas.\n$20 o frasco. Encontro vocês na van do correio em 10 minutos.\nNão aceito cheques.",
+      "sentiment": {
+        "label": "NEG",
+        "raw_label": "1 star",
+        "score": 0.6156290173530579
+      },
+      "topics": {
+        "labels": [
+          "suspicious",
+          "procedural",
+          "work-related",
+          "conspiracy",
+          "complaint",
+          "personal"
+        ],
+        "scores": [
+          0.6751223802566528,
+          0.6252093315124512,
+          0.2925953269004822,
+          0.25349122285842896,
+          0.21650809049606323,
+          0.1525365114212036
+        ]
+      },
+      "suspicion_score": 0.2513964891433716
+    },
+    {
+      "id": 57,
+      "from": "Toby Flenderson <toby.flenderson@dundermifflin.com>",
+      "subject": "Cheiro estranho",
+      "body": "Creed, recebi reclamações de que sua mesa está cheirando a enxofre e brotos de feijão fermentados.\nPor favor, verifique se você não deixou comida estragada na gaveta de arquivos de novo.",
+      "sentiment": {
+        "label": "NEG",
+        "raw_label": "1 star",
+        "score": 0.7656536102294922
+      },
+      "topics": {
+        "labels": [
+          "suspicious",
+          "complaint",
+          "conspiracy",
+          "work-related",
+          "personal",
+          "procedural"
+        ],
+        "scores": [
+          0.9862701296806335,
+          0.9777297377586365,
+          0.5448014140129089,
+          0.398406445980072,
+          0.37341874837875366,
+          0.3293917179107666
+        ]
+      },
+      "suspicion_score": 0.3679205656051636
+    },
+    {
+      "id": 58,
+      "from": "Michael Scott <michael.scott@dundermifflin.com>",
+      "subject": "Atualização da Operação Fênix: Suporte Aéreo",
+      "body": "Dwight,\nComprei dois helicópteros de controle remoto na loja de brinquedos.\nO plano: vamos colar câmeras descartáveis neles e voar por cima da baia do Toby para ver o que ele está escrevendo.\nCusto: $150,00.\nLancei no sistema como \"Treinamento de Pilotagem para Entregas Futuras\". O futuro é o ar, Dwight.",
+      "sentiment": {
+        "label": "POS",
+        "raw_label": "4 stars",
+        "score": 0.2918068468570709
+      },
+      "topics": {
+        "labels": [
+          "work-related",
+          "procedural",
+          "suspicious",
+          "personal",
+          "complaint",
+          "conspiracy"
+        ],
+        "scores": [
+          0.9939847588539124,
+          0.9424537420272827,
+          0.5674572587013245,
+          0.4990234076976776,
+          0.11013571918010712,
+          0.07952696830034256
+        ]
+      },
+      "suspicion_score": 0.481810787320137
+    },
+    {
+      "id": 59,
+      "from": "Pam Beesly <pam.beesly@dundermifflin.com>",
+      "subject": "Geladeira da Copa",
+      "body": "Bom dia.\nA limpeza da geladeira será nesta sexta-feira às 16h.\nQualquer coisa sem nome ou com fungos visíveis será jogada fora. Incluindo tupperwares.",
+      "sentiment": {
+        "label": "POS",
+        "raw_label": "4 stars",
+        "score": 0.35623931884765625
+      },
+      "topics": {
+        "labels": [
+          "procedural",
+          "suspicious",
+          "work-related",
+          "conspiracy",
+          "personal",
+          "complaint"
+        ],
+        "scores": [
+          0.986903965473175,
+          0.6099888682365417,
+          0.4101655185222626,
+          0.12721826136112213,
+          0.09043380618095398,
+          0.06877946853637695
+        ]
+      },
+      "suspicion_score": 0.050887304544448855
+    },
+    {
+      "id": 60,
+      "from": "Ryan Howard <ryan.howard@dundermifflin.com>",
+      "subject": "Re: Geladeira da Copa",
+      "body": "Pam, meu iogurte de mirtilo é orgânico, ele parece ter fungos, mas é natural. Não jogue fora.",
+      "sentiment": {
+        "label": "POS",
+        "raw_label": "4 stars",
+        "score": 0.2989771366119385
+      },
+      "topics": {
+        "labels": [
+          "complaint",
+          "personal",
+          "suspicious",
+          "conspiracy",
+          "procedural",
+          "work-related"
+        ],
+        "scores": [
+          0.9439706206321716,
+          0.9320524334907532,
+          0.8802191615104675,
+          0.6614856719970703,
+          0.6039026379585266,
+          0.5295066833496094
+        ]
+      },
+      "suspicion_score": 0.26459426879882814
+    },
+    {
+      "id": 61,
+      "from": "Michael Scott <michael.scott@dundermifflin.com>",
+      "subject": "Pensamento do Dia",
+      "body": "\"Você perde 100% dos arremessos que não faz. - Wayne Gretzky\"\n- Michael Scott",
+      "sentiment": {
+        "label": "NEG",
+        "raw_label": "1 star",
+        "score": 0.6539596319198608
+      },
+      "topics": {
+        "labels": [
+          "work-related",
+          "complaint",
+          "personal",
+          "suspicious",
+          "conspiracy",
+          "procedural"
+        ],
+        "scores": [
+          0.922307550907135,
+          0.9123581051826477,
+          0.7367795705795288,
+          0.6584175229072571,
+          0.5547116994857788,
+          0.43170398473739624
+        ]
+      },
+      "suspicion_score": 0.7218846797943116
+    },
+    {
+      "id": 62,
+      "from": "Stanley Hudson <stanley.hudson@dundermifflin.com>",
+      "subject": "Re: Pensamento do Dia",
+      "body": "Por favor, pare de me mandar isso. Estou no telefone com um cliente.",
+      "sentiment": {
+        "label": "NEG",
+        "raw_label": "1 star",
+        "score": 0.6008304357528687
+      },
+      "topics": {
+        "labels": [
+          "personal",
+          "procedural",
+          "suspicious",
+          "work-related",
+          "complaint",
+          "conspiracy"
+        ],
+        "scores": [
+          0.9508692026138306,
+          0.919768750667572,
+          0.8402589559555054,
+          0.810478925704956,
+          0.798501193523407,
+          0.3484233617782593
+        ]
+      },
+      "suspicion_score": 0.2893693447113037
+    },
+    {
+      "id": 63,
+      "from": "Angela Martin <angela.martin@dundermifflin.com>",
+      "subject": "Reunião de Pauta",
+      "body": "Precisamos decidir a cor dos guardanapos para o mês de Junho.\nPhyllis, traga amostras de tecido.\nPam, traga a ata da reunião anterior.\nMeredith, não venha.",
+      "sentiment": {
+        "label": "NEG",
+        "raw_label": "2 stars",
+        "score": 0.33185839653015137
+      },
+      "topics": {
+        "labels": [
+          "procedural",
+          "work-related",
+          "personal",
+          "suspicious",
+          "conspiracy",
+          "complaint"
+        ],
+        "scores": [
+          0.7785230875015259,
+          0.40098389983177185,
+          0.22617414593696594,
+          0.195901557803154,
+          0.026995547115802765,
+          0.0015397269744426012
+        ]
+      },
+      "suspicion_score": 0.1607982188463211
+    },
+    {
+      "id": 64,
+      "from": "Oscar Martinez <oscar.martinez@dundermifflin.com>",
+      "subject": "Planilha de Despesas",
+      "body": "Kevin, a célula B4 da sua planilha está somando a data com o valor monetário.\nPor favor, corrija. O ano de 2008 não é uma quantia em dólares.",
+      "sentiment": {
+        "label": "NEG",
+        "raw_label": "1 star",
+        "score": 0.47659698128700256
+      },
+      "topics": {
+        "labels": [
+          "complaint",
+          "suspicious",
+          "work-related",
+          "procedural",
+          "personal",
+          "conspiracy"
+        ],
+        "scores": [
+          0.3704531192779541,
+          0.367951363325119,
+          0.2450850009918213,
+          0.2359876185655594,
+          0.08218025416135788,
+          0.06462396681308746
+        ]
+      },
+      "suspicion_score": 0.17584958672523499
+    },
+    {
+      "id": 65,
+      "from": "Kevin Malone <kevin.malone@dundermifflin.com>",
+      "subject": "Re: Planilha de Despesas",
+      "body": "Valeu, Oscar. Eu achei que a gente tinha tido um lucro enorme. Que pena.",
+      "sentiment": {
+        "label": "NEG",
+        "raw_label": "1 star",
+        "score": 0.3406248092651367
+      },
+      "topics": {
+        "labels": [
+          "procedural",
+          "work-related",
+          "complaint",
+          "suspicious",
+          "personal",
+          "conspiracy"
+        ],
+        "scores": [
+          0.801508903503418,
+          0.7414869070053101,
+          0.6202766299247742,
+          0.4196479618549347,
+          0.3965354561805725,
+          0.06306813657283783
+        ]
+      },
+      "suspicion_score": 0.17522725462913513
+    },
+    {
+      "id": 66,
+      "from": "Andy Bernard <andy.bernard@dundermifflin.com>",
+      "subject": "Cornell",
+      "body": "Ei Tuna, sabia que em Cornell nós tínhamos um clube de degustação de queijos?\nEstou pensando em começar um aqui. O que acha? \"The Big Cheese\". Eu seria o presidente, claro.",
+      "sentiment": {
+        "label": "NEG",
+        "raw_label": "1 star",
+        "score": 0.31863340735435486
+      },
+      "topics": {
+        "labels": [
+          "personal",
+          "work-related",
+          "suspicious",
+          "conspiracy",
+          "procedural",
+          "complaint"
+        ],
+        "scores": [
+          0.32380759716033936,
+          0.23528406023979187,
+          0.20721471309661865,
+          0.17866909503936768,
+          0.018887342885136604,
+          0.004281254950910807
+        ]
+      },
+      "suspicion_score": 0.22146763801574706
+    },
+    {
+      "id": 67,
+      "from": "Jim Halpert <jim.halpert@dundermifflin.com>",
+      "subject": "Re: Cornell",
+      "body": "Parece ótimo, Andy.\nO Dwight entende muito de queijo. Ele faz o próprio queijo na fazenda. Você devia falar com ele.",
+      "sentiment": {
+        "label": "NEU",
+        "raw_label": "3 stars",
+        "score": 0.41375455260276794
+      },
+      "topics": {
+        "labels": [
+          "personal",
+          "work-related",
+          "procedural",
+          "complaint",
+          "conspiracy",
+          "suspicious"
+        ],
+        "scores": [
+          0.9692224264144897,
+          0.6934729814529419,
+          0.11286872625350952,
+          0.08314291387796402,
+          0.04048379510641098,
+          0.005495898425579071
+        ]
+      },
+      "suspicion_score": 0.016193518042564393
+    },
+    {
+      "id": 68,
+      "from": "Dwight Schrute <dwight.schrute@dundermifflin.com>",
+      "subject": "Queijo",
+      "body": "O Jim me disse que você quer saber sobre queijos.\nO único queijo verdadeiro é o queijo de leite de cabra cru.\nSe você trouxer qualquer coisa pasteurizada para o escritório, eu vou confiscar e destruir.",
+      "sentiment": {
+        "label": "NEG",
+        "raw_label": "1 star",
+        "score": 0.5442004203796387
+      },
+      "topics": {
+        "labels": [
+          "work-related",
+          "suspicious",
+          "conspiracy",
+          "procedural",
+          "complaint",
+          "personal"
+        ],
+        "scores": [
+          0.9651027321815491,
+          0.9492475986480713,
+          0.876502275466919,
+          0.8194060921669006,
+          0.6544531583786011,
+          0.15657182037830353
+        ]
+      },
+      "suspicion_score": 0.5006009101867676
+    },
+    {
+      "id": 69,
+      "from": "Toby Flenderson <toby.flenderson@dundermifflin.com>",
+      "subject": "Reclamação sobre odor",
+      "body": "Michael, você acendeu incenso na sua sala?\nO sistema de ventilação está espalhando o cheiro para a contabilidade. A Angela está reclamando de dor de cabeça.",
+      "sentiment": {
+        "label": "NEG",
+        "raw_label": "1 star",
+        "score": 0.5621699690818787
+      },
+      "topics": {
+        "labels": [
+          "suspicious",
+          "complaint",
+          "work-related",
+          "procedural",
+          "conspiracy",
+          "personal"
+        ],
+        "scores": [
+          0.9423213005065918,
+          0.9373255968093872,
+          0.5626571774482727,
+          0.24812401831150055,
+          0.16224724054336548,
+          0.02853061631321907
+        ]
+      },
+      "suspicion_score": 0.2148988962173462
+    },
+    {
+      "id": 70,
+      "from": "Michael Scott <michael.scott@dundermifflin.com>",
+      "subject": "Re: Reclamação sobre odor",
+      "body": "Não é incenso, Toby. É \"Essência de Liderança\".\nMas claro, vou apagar. Vocês preferem o cheiro de fracasso do RH?",
+      "sentiment": {
+        "label": "NEG",
+        "raw_label": "2 stars",
+        "score": 0.4242101013660431
+      },
+      "topics": {
+        "labels": [
+          "work-related",
+          "complaint",
+          "personal",
+          "suspicious",
+          "procedural",
+          "conspiracy"
+        ],
+        "scores": [
+          0.9953904747962952,
+          0.9895815849304199,
+          0.6508002877235413,
+          0.6134681701660156,
+          0.06545533239841461,
+          0.010570487938821316
+        ]
+      },
+      "suspicion_score": 0.6042281951755285
+    },
+    {
+      "id": 71,
+      "from": "Phyllis Lapin-Vance <phyllis.vance@dundermifflin.com>",
+      "subject": "Tricô",
+      "body": "Pam, querida, terminei aquele cachecol que você pediu.\nFicou um pouco torto, mas é feito com amor. O Bob Vance adorou a cor.",
+      "sentiment": {
+        "label": "POS",
+        "raw_label": "4 stars",
+        "score": 0.4906681478023529
+      },
+      "topics": {
+        "labels": [
+          "personal",
+          "procedural",
+          "complaint",
+          "work-related",
+          "conspiracy",
+          "suspicious"
+        ],
+        "scores": [
+          0.9989758133888245,
+          0.9614253044128418,
+          0.9272316098213196,
+          0.9229697585105896,
+          0.5684157609939575,
+          0.0018969200318679214
+        ]
+      },
+      "suspicion_score": 0.227366304397583
+    },
+    {
+      "id": 72,
+      "from": "Kelly Kapoor <kelly.kapoor@dundermifflin.com>",
+      "subject": "Look do Dia",
+      "body": "O que você acha da minha blusa? É rosa choque.\nAcha que combina com a minha aura?\nResponda com sinceridade. Mas se for ruim, minta.",
+      "sentiment": {
+        "label": "NEU",
+        "raw_label": "3 stars",
+        "score": 0.4290073812007904
+      },
+      "topics": {
+        "labels": [
+          "personal",
+          "suspicious",
+          "conspiracy",
+          "complaint",
+          "work-related",
+          "procedural"
+        ],
+        "scores": [
+          0.9839708209037781,
+          0.8189541101455688,
+          0.4680611193180084,
+          0.42369645833969116,
+          0.21190567314624786,
+          0.040692951530218124
+        ]
+      },
+      "suspicion_score": 0.18722444772720337
+    },
+    {
+      "id": 73,
+      "from": "Creed Bratton <creed.bratton@dundermifflin.com>",
+      "subject": "Telefone",
+      "body": "Alguém ligou para mim perguntando sobre \"controle de qualidade\"?\nSe ligarem de novo, diga que eu morri em um acidente de asa-delta.\nObrigado, querida.",
+      "sentiment": {
+        "label": "POS",
+        "raw_label": "5 stars",
+        "score": 0.2742829918861389
+      },
+      "topics": {
+        "labels": [
+          "suspicious",
+          "personal",
+          "complaint",
+          "procedural",
+          "work-related",
+          "conspiracy"
+        ],
+        "scores": [
+          0.8975158333778381,
+          0.8771877288818359,
+          0.8234349489212036,
+          0.6154345870018005,
+          0.5489153265953064,
+          0.03870166093111038
+        ]
+      },
+      "suspicion_score": 0.015480664372444154
+    },
+    {
+      "id": 74,
+      "from": "Darryl Philbin <darryl.philbin@dundermifflin.com>",
+      "subject": "Paletes",
+      "body": "Mike, precisamos de autorização para comprar mais paletes de madeira.\nOs antigos estão apodrecendo. É uma questão de segurança.\nO custo é baixo, está dentro do orçamento operacional.",
+      "sentiment": {
+        "label": "NEG",
+        "raw_label": "2 stars",
+        "score": 0.4583530128002167
+      },
+      "topics": {
+        "labels": [
+          "work-related",
+          "procedural",
+          "complaint",
+          "suspicious",
+          "personal",
+          "conspiracy"
+        ],
+        "scores": [
+          0.9947289228439331,
+          0.9097066521644592,
+          0.5416513085365295,
+          0.5112285614013672,
+          0.30777400732040405,
+          0.05248523876070976
+        ]
+      },
+      "suspicion_score": 0.1709940955042839
+    },
+    {
+      "id": 75,
+      "from": "Michael Scott <michael.scott@dundermifflin.com>",
+      "subject": "Re: Paletes",
+      "body": "Paletes são chatos, Darryl.\nMas tudo bem. Autorizado.\nPodemos construir um forte com os velhos?",
+      "sentiment": {
+        "label": "NEU",
+        "raw_label": "3 stars",
+        "score": 0.3417285084724426
+      },
+      "topics": {
+        "labels": [
+          "complaint",
+          "personal",
+          "work-related",
+          "suspicious",
+          "conspiracy",
+          "procedural"
+        ],
+        "scores": [
+          0.9900153875350952,
+          0.9523945450782776,
+          0.9519246816635132,
+          0.9057816863059998,
+          0.7533758878707886,
+          0.6521306037902832
+        ]
+      },
+      "suspicion_score": 0.6513503551483154
+    },
+    {
+      "id": 76,
+      "from": "Jim Halpert <jim.halpert@dundermifflin.com>",
+      "subject": "Proposta Dunder Mifflin",
+      "body": "Prezado Sr. Decker,\nConforme conversamos, segue em anexo a proposta atualizada para o fornecimento anual de papel para a Stone & Son.\nConseguimos aplicar o desconto de volume que o senhor solicitou.\nAguardo seu retorno.\nAtenciosamente, Jim Halpert.",
+      "sentiment": {
+        "label": "POS",
+        "raw_label": "4 stars",
+        "score": 0.33912184834480286
+      },
+      "topics": {
+        "labels": [
+          "work-related",
+          "procedural",
+          "personal",
+          "suspicious",
+          "conspiracy",
+          "complaint"
+        ],
+        "scores": [
+          0.9741166234016418,
+          0.9338241815567017,
+          0.7391871809959412,
+          0.050202421844005585,
+          0.038901980966329575,
+          0.032040081918239594
+        ]
+      },
+      "suspicion_score": 0.015560792386531831
+    },
+    {
+      "id": 77,
+      "from": "Dwight Schrute <dwight.schrute@dundermifflin.com>",
+      "subject": "Roubo de Cliente",
+      "body": "Jim, eu vi que você ligou para a Stone & Son.\nEssa região pertencia ao Devin antes de ser demitido, o que significa que por lei de conquista territorial, pertence a mim.\nExijo que você transfira o lead.",
+      "sentiment": {
+        "label": "NEG",
+        "raw_label": "1 star",
+        "score": 0.7474977970123291
+      },
+      "topics": {
+        "labels": [
+          "work-related",
+          "personal",
+          "complaint",
+          "procedural",
+          "conspiracy",
+          "suspicious"
+        ],
+        "scores": [
+          0.9977437853813171,
+          0.9968580603599548,
+          0.9946463108062744,
+          0.9453111290931702,
+          0.8308687210083008,
+          0.7921428680419922
+        ]
+      },
+      "suspicion_score": 0.4823474884033203
+    },
+    {
+      "id": 78,
+      "from": "Jim Halpert <jim.halpert@dundermifflin.com>",
+      "subject": "Re: Roubo de Cliente",
+      "body": "Dwight, o Michael me deu essa conta em 2005.\nVerifique o arquivo morto.\nAbraço.",
+      "sentiment": {
+        "label": "NEG",
+        "raw_label": "1 star",
+        "score": 0.8533300161361694
+      },
+      "topics": {
+        "labels": [
+          "complaint",
+          "conspiracy",
+          "personal",
+          "suspicious",
+          "work-related",
+          "procedural"
+        ],
+        "scores": [
+          0.9976403713226318,
+          0.9867261052131653,
+          0.9673640131950378,
+          0.9662914872169495,
+          0.9653974771499634,
+          0.5178146958351135
+        ]
+      },
+      "suspicion_score": 0.5446904420852662
+    },
+    {
+      "id": 79,
+      "from": "Meredith Palmer <meredith.palmer@dundermifflin.com>",
+      "subject": "Recibo Perdido",
+      "body": "Oscar, perdi o recibo do estacionamento de hoje.\nFoi 5 dólares. Posso só escrever num papel \"5 dólares\" e você aceita?",
+      "sentiment": {
+        "label": "NEG",
+        "raw_label": "1 star",
+        "score": 0.7667090892791748
+      },
+      "topics": {
+        "labels": [
+          "personal",
+          "suspicious",
+          "procedural",
+          "complaint",
+          "work-related",
+          "conspiracy"
+        ],
+        "scores": [
+          0.834811270236969,
+          0.72525954246521,
+          0.7031419277191162,
+          0.6800292730331421,
+          0.5926666259765625,
+          0.2649284899234772
+        ]
+      },
+      "suspicion_score": 0.2559713959693909
+    },
+    {
+      "id": 80,
+      "from": "Oscar Martinez <oscar.martinez@dundermifflin.com>",
+      "subject": "Re: Recibo Perdido",
+      "body": "Não, Meredith. Sem recibo, sem reembolso. Política da empresa.",
+      "sentiment": {
+        "label": "NEG",
+        "raw_label": "1 star",
+        "score": 0.7326310276985168
+      },
+      "topics": {
+        "labels": [
+          "work-related",
+          "complaint",
+          "procedural",
+          "suspicious",
+          "conspiracy",
+          "personal"
+        ],
+        "scores": [
+          0.9441511034965515,
+          0.8914808034896851,
+          0.8701013922691345,
+          0.7386690974235535,
+          0.3328523337841034,
+          0.14184510707855225
+        ]
+      },
+      "suspicion_score": 0.28314093351364134
+    },
+    {
+      "id": 81,
+      "from": "Michael Scott <michael.scott@dundermifflin.com>",
+      "subject": "Ideia para Filme",
+      "body": "Tive uma ideia incrível para um roteiro.\nÉ sobre um espião que perde a memória, mas ele acha que é um vendedor de papel.\nO nome seria \"Threat Level Midnight: Origins\".\nAlguém sabe formatar roteiro no Word?",
+      "sentiment": {
+        "label": "NEG",
+        "raw_label": "2 stars",
+        "score": 0.3748461902141571
+      },
+      "topics": {
+        "labels": [
+          "conspiracy",
+          "suspicious",
+          "work-related",
+          "procedural",
+          "personal",
+          "complaint"
+        ],
+        "scores": [
+          0.9872527718544006,
+          0.9849708080291748,
+          0.9440222382545471,
+          0.5355235934257507,
+          0.48425811529159546,
+          0.08280852437019348
+        ]
+      },
+      "suspicion_score": 0.8949011087417603
+    },
+    {
+      "id": 82,
+      "from": "Pam Beesly <pam.beesly@dundermifflin.com>",
+      "subject": "Re: Ideia para Filme",
+      "body": "Michael, você deve focar nos relatórios de vendas.\nO Jan ligou perguntando sobre os números.",
+      "sentiment": {
+        "label": "NEU",
+        "raw_label": "3 stars",
+        "score": 0.32650017738342285
+      },
+      "topics": {
+        "labels": [
+          "work-related",
+          "procedural",
+          "suspicious",
+          "personal",
+          "complaint",
+          "conspiracy"
+        ],
+        "scores": [
+          0.9675944447517395,
+          0.8820632696151733,
+          0.564578652381897,
+          0.36285629868507385,
+          0.04401865601539612,
+          0.0064007299952209
+        ]
+      },
+      "suspicion_score": 0.00256029199808836
+    },
+    {
+      "id": 83,
+      "from": "Stanley Hudson <stanley.hudson@dundermifflin.com>",
+      "subject": "Saindo",
+      "body": "Estou saindo em 5 minutos.\nO trânsito parece ruim.\nComprei aquele vinho que você gosta.",
+      "sentiment": {
+        "label": "NEG",
+        "raw_label": "1 star",
+        "score": 0.36370405554771423
+      },
+      "topics": {
+        "labels": [
+          "procedural",
+          "suspicious",
+          "complaint",
+          "work-related",
+          "personal",
+          "conspiracy"
+        ],
+        "scores": [
+          0.9770445227622986,
+          0.9770225882530212,
+          0.9527063369750977,
+          0.9197507500648499,
+          0.6194713115692139,
+          0.2699025273323059
+        ]
+      },
+      "suspicion_score": 0.25796101093292234
+    },
+    {
+      "id": 84,
+      "from": "Andy Bernard <andy.bernard@dundermifflin.com>",
+      "subject": "Convite",
+      "body": "Angela, gostaria de saber se você aceitaria me acompanhar num concerto de harpa no parque neste sábado?\nPrometo que não cantarei junto. A menos que peçam.",
+      "sentiment": {
+        "label": "NEG",
+        "raw_label": "1 star",
+        "score": 0.39376378059387207
+      },
+      "topics": {
+        "labels": [
+          "personal",
+          "complaint",
+          "suspicious",
+          "procedural",
+          "conspiracy",
+          "work-related"
+        ],
+        "scores": [
+          0.6201616525650024,
+          0.5019530653953552,
+          0.1856517344713211,
+          0.11197347193956375,
+          0.10720356553792953,
+          0.07276838272809982
+        ]
+      },
+      "suspicion_score": 0.19288142621517182
+    },
+    {
+      "id": 85,
+      "from": "Angela Martin <angela.martin@dundermifflin.com>",
+      "subject": "Re: Convite",
+      "body": "O parque é sujo. Tem esquilos.\nMas eu aprecio harpas. Podemos ir, desde que voltemos antes das 20h.",
+      "sentiment": {
+        "label": "NEU",
+        "raw_label": "3 stars",
+        "score": 0.35214337706565857
+      },
+      "topics": {
+        "labels": [
+          "complaint",
+          "procedural",
+          "suspicious",
+          "conspiracy",
+          "personal",
+          "work-related"
+        ],
+        "scores": [
+          0.9947186708450317,
+          0.8263617753982544,
+          0.71497642993927,
+          0.6773673295974731,
+          0.45519861578941345,
+          0.32423537969589233
+        ]
+      },
+      "suspicion_score": 0.27094693183898927
+    },
+    {
+      "id": 86,
+      "from": "Toby Flenderson <toby.flenderson@dundermifflin.com>",
+      "subject": "Doação de Sangue",
+      "body": "O ônibus de doação de sangue estará no estacionamento amanhã.\nQuem doar ganha um biscoito e 15 minutos de folga remunerada.",
+      "sentiment": {
+        "label": "NEG",
+        "raw_label": "1 star",
+        "score": 0.5808044672012329
+      },
+      "topics": {
+        "labels": [
+          "work-related",
+          "procedural",
+          "suspicious",
+          "personal",
+          "conspiracy",
+          "complaint"
+        ],
+        "scores": [
+          0.7834919095039368,
+          0.733069896697998,
+          0.13614831864833832,
+          0.08460613340139389,
+          0.025994418188929558,
+          0.004223365802317858
+        ]
+      },
+      "suspicion_score": 0.1603977672755718
+    },
+    {
+      "id": 87,
+      "from": "Creed Bratton <creed.bratton@dundermifflin.com>",
+      "subject": "Re: Doação de Sangue",
+      "body": "Posso doar sangue que eu trouxe de casa em um pote?\nÉ sangue de alta qualidade.",
+      "sentiment": {
+        "label": "POS",
+        "raw_label": "5 stars",
+        "score": 0.4564955532550812
+      },
+      "topics": {
+        "labels": [
+          "suspicious",
+          "personal",
+          "complaint",
+          "procedural",
+          "work-related",
+          "conspiracy"
+        ],
+        "scores": [
+          0.9010534286499023,
+          0.8864203691482544,
+          0.7470628023147583,
+          0.7136312127113342,
+          0.4985351860523224,
+          0.13828712701797485
+        ]
+      },
+      "suspicion_score": 0.055314850807189946
+    },
+    {
+      "id": 88,
+      "from": "Toby Flenderson <toby.flenderson@dundermifflin.com>",
+      "subject": "Re: Re: Doação de Sangue",
+      "body": "Não, Creed. Por favor, não traga potes de sangue para o trabalho.",
+      "sentiment": {
+        "label": "NEG",
+        "raw_label": "1 star",
+        "score": 0.5958234071731567
+      },
+      "topics": {
+        "labels": [
+          "work-related",
+          "complaint",
+          "procedural",
+          "suspicious",
+          "conspiracy",
+          "personal"
+        ],
+        "scores": [
+          0.9740842580795288,
+          0.9626731276512146,
+          0.8653379082679749,
+          0.8628146648406982,
+          0.8580062389373779,
+          0.723504900932312
+        ]
+      },
+      "suspicion_score": 0.4932024955749512
+    },
+    {
+      "id": 89,
+      "from": "Kelly Kapoor <kelly.kapoor@dundermifflin.com>",
+      "subject": "Quem deixou isso aqui?",
+      "body": "Alguém esqueceu um guarda-chuva rosa com bolinhas na recepção.\nÉ muito fofo. Se ninguém reclamar até o meio-dia, é meu.",
+      "sentiment": {
+        "label": "NEG",
+        "raw_label": "1 star",
+        "score": 0.8266265392303467
+      },
+      "topics": {
+        "labels": [
+          "personal",
+          "complaint",
+          "procedural",
+          "conspiracy",
+          "work-related",
+          "suspicious"
+        ],
+        "scores": [
+          0.9975417852401733,
+          0.9411693811416626,
+          0.9262369871139526,
+          0.7164170742034912,
+          0.40239211916923523,
+          0.051367513835430145
+        ]
+      },
+      "suspicion_score": 0.4365668296813965
+    },
+    {
+      "id": 90,
+      "from": "Kevin Malone <kevin.malone@dundermifflin.com>",
+      "subject": "Re: Quem deixou isso aqui?",
+      "body": "É meu. Não toque.",
+      "sentiment": {
+        "label": "NEG",
+        "raw_label": "1 star",
+        "score": 0.6608301401138306
+      },
+      "topics": {
+        "labels": [
+          "personal",
+          "suspicious",
+          "complaint",
+          "conspiracy",
+          "procedural",
+          "work-related"
+        ],
+        "scores": [
+          0.9994652271270752,
+          0.9583140015602112,
+          0.9128255248069763,
+          0.5921949744224548,
+          0.3640989661216736,
+          0.3289604187011719
+        ]
+      },
+      "suspicion_score": 0.3868779897689819
+    },
+    {
+      "id": 91,
+      "from": "Michael Scott <michael.scott@dundermifflin.com>",
+      "subject": "WUPHF",
+      "body": "Ryan, tentei entrar no site que você falou, mas apareceu um erro 404.\nIsso é bom? 404 parece um número alto. Sucesso?",
+      "sentiment": {
+        "label": "NEG",
+        "raw_label": "1 star",
+        "score": 0.3857312500476837
+      },
+      "topics": {
+        "labels": [
+          "suspicious",
+          "personal",
+          "complaint",
+          "work-related",
+          "conspiracy",
+          "procedural"
+        ],
+        "scores": [
+          0.97352534532547,
+          0.7913377285003662,
+          0.7839884161949158,
+          0.5987815260887146,
+          0.5170831680297852,
+          0.4916999638080597
+        ]
+      },
+      "suspicion_score": 0.7068332672119141
+    },
+    {
+      "id": 92,
+      "from": "Ryan Howard <ryan.howard@dundermifflin.com>",
+      "subject": "Re: WUPHF",
+      "body": "É... sim, Michael. É um código secreto de sucesso.\nEstamos em manutenção.",
+      "sentiment": {
+        "label": "POS",
+        "raw_label": "5 stars",
+        "score": 0.636505663394928
+      },
+      "topics": {
+        "labels": [
+          "work-related",
+          "procedural",
+          "personal",
+          "suspicious",
+          "complaint",
+          "conspiracy"
+        ],
+        "scores": [
+          0.9893885850906372,
+          0.9866876602172852,
+          0.9856767654418945,
+          0.16431520879268646,
+          0.12803374230861664,
+          0.007317397743463516
+        ]
+      },
+      "suspicion_score": 0.002926959097385407
+    },
+    {
+      "id": 93,
+      "from": "Phyllis Lapin-Vance <phyllis.vance@dundermifflin.com>",
+      "subject": "Chuva",
+      "body": "Stanley, está começando a chover forte.\nAcho melhor você fechar a janela do seu carro.",
+      "sentiment": {
+        "label": "NEG",
+        "raw_label": "2 stars",
+        "score": 0.5006052255630493
+      },
+      "topics": {
+        "labels": [
+          "suspicious",
+          "procedural",
+          "complaint",
+          "work-related",
+          "personal",
+          "conspiracy"
+        ],
+        "scores": [
+          0.851212203502655,
+          0.8230441212654114,
+          0.8204694390296936,
+          0.7289413213729858,
+          0.6911847591400146,
+          0.4926762580871582
+        ]
+      },
+      "suspicion_score": 0.3470705032348633
+    },
+    {
+      "id": 94,
+      "from": "Stanley Hudson <stanley.hudson@dundermifflin.com>",
+      "subject": "Re: Chuva",
+      "body": "Obrigado, Phyllis.",
+      "sentiment": {
+        "label": "NEU",
+        "raw_label": "3 stars",
+        "score": 0.24131746590137482
+      },
+      "topics": {
+        "labels": [
+          "personal",
+          "suspicious",
+          "complaint",
+          "conspiracy",
+          "work-related",
+          "procedural"
+        ],
+        "scores": [
+          0.7928654551506042,
+          0.6719012260437012,
+          0.5817784070968628,
+          0.5743948221206665,
+          0.5360700488090515,
+          0.42727723717689514
+        ]
+      },
+      "suspicion_score": 0.22975792884826662
+    },
+    {
+      "id": 95,
+      "from": "Jim Halpert <jim.halpert@dundermifflin.com>",
+      "subject": "Plano de Fuga",
+      "body": "Faltam 10 minutos.\nO Michael está olhando para a porta da sala dele, parece que vai fazer um discurso de sexta-feira.\nSe eu jogar uma caneta no chão, você corre. Eu te cubro.",
+      "sentiment": {
+        "label": "NEG",
+        "raw_label": "1 star",
+        "score": 0.6041610836982727
+      },
+      "topics": {
+        "labels": [
+          "procedural",
+          "work-related",
+          "suspicious",
+          "complaint",
+          "personal",
+          "conspiracy"
+        ],
+        "scores": [
+          0.9853420257568359,
+          0.9575912356376648,
+          0.9273632764816284,
+          0.8721569180488586,
+          0.8359862565994263,
+          0.8331888914108276
+        ]
+      },
+      "suspicion_score": 0.4832755565643311
+    },
+    {
+      "id": 96,
+      "from": "Pam Beesly <pam.beesly@dundermifflin.com>",
+      "subject": "Re: Plano de Fuga",
+      "body": "Entendido.\nVejo você no estacionamento.",
+      "sentiment": {
+        "label": "NEG",
+        "raw_label": "1 star",
+        "score": 0.3674675524234772
+      },
+      "topics": {
+        "labels": [
+          "procedural",
+          "conspiracy",
+          "suspicious",
+          "complaint",
+          "personal",
+          "work-related"
+        ],
+        "scores": [
+          0.9613708853721619,
+          0.8958420753479004,
+          0.8484706282615662,
+          0.41276684403419495,
+          0.3791484832763672,
+          0.26621419191360474
+        ]
+      },
+      "suspicion_score": 0.5083368301391602
+    },
+    {
+      "id": 97,
+      "from": "Corporate HR <no-reply@dundermifflin.com>",
+      "subject": "Pesquisa de Satisfação",
+      "body": "Por favor, dediquem 5 minutos para preencher a pesquisa de satisfação trimestral.\nSuas respostas são anônimas (exceto o IP, login e departamento).\nObrigado, Dunder Mifflin Corporate.",
+      "sentiment": {
+        "label": "NEG",
+        "raw_label": "1 star",
+        "score": 0.29739928245544434
+      },
+      "topics": {
+        "labels": [
+          "work-related",
+          "procedural",
+          "suspicious",
+          "personal",
+          "complaint",
+          "conspiracy"
+        ],
+        "scores": [
+          0.8761186599731445,
+          0.18498824536800385,
+          0.15152934193611145,
+          0.010912908241152763,
+          0.009888498112559319,
+          0.0040464554913342
+        ]
+      },
+      "suspicion_score": 0.15161858219653368
+    },
+    {
+      "id": 98,
+      "from": "Michael Scott <michael.scott@dundermifflin.com>",
+      "subject": "Re: Pesquisa de Satisfação",
+      "body": "Eu dou nota 10 para todos vocês!\nTenham um ótimo fim de semana!\nVamos para o Cooper's?\n(Sem resposta).",
+      "sentiment": {
+        "label": "POS",
+        "raw_label": "5 stars",
+        "score": 0.48314571380615234
+      },
+      "topics": {
+        "labels": [
+          "work-related",
+          "personal",
+          "procedural",
+          "suspicious",
+          "complaint",
+          "conspiracy"
+        ],
+        "scores": [
+          0.48584362864494324,
+          0.04236418753862381,
+          0.03491377830505371,
+          0.02031291089951992,
+          0.014023060910403728,
+          0.0023051253519952297
+        ]
+      },
+      "suspicion_score": 0.3509220501407981
+    },
+    {
+      "id": 99,
+      "from": "Oscar Martinez <oscar.martinez@dundermifflin.com>",
+      "subject": "Rejeição de Despesa #899",
+      "body": "Michael,\nVocê não pode lançar \"Helicópteros de Brinquedo\" como despesa de treinamento.\nNós vendemos papel. Nós usamos caminhões.\nAlém disso, você quebrou um deles tentando pousar na cabeça do Stanley.\nPor favor, reembolse o caixa em $150,00 ou vou ter que escalar para o David Wallace.",
+      "sentiment": {
+        "label": "NEG",
+        "raw_label": "1 star",
+        "score": 0.7142200469970703
+      },
+      "topics": {
+        "labels": [
+          "complaint",
+          "work-related",
+          "conspiracy",
+          "suspicious",
+          "procedural",
+          "personal"
+        ],
+        "scores": [
+          0.9994847178459167,
+          0.9920620322227478,
+          0.7961339950561523,
+          0.7772998809814453,
+          0.7633515000343323,
+          0.46465864777565
+        ]
+      },
+      "suspicion_score": 0.468453598022461
+    },
+    {
+      "id": 100,
+      "from": "Phyllis Lapin-Vance <phyllis.vance@dundermifflin.com>",
+      "subject": "Bob Vance",
+      "body": "Stanley, o Bob (da Vance Refrigeration) vai trazer um refrigerador novo para a sala de descanso.\nEle perguntou se você quer um compartimento especial com chave para os seus sanduíches de almôndega.\nEle é tão atencioso.",
+      "sentiment": {
+        "label": "POS",
+        "raw_label": "5 stars",
+        "score": 0.4931676387786865
+      },
+      "topics": {
+        "labels": [
+          "personal",
+          "procedural",
+          "complaint",
+          "suspicious",
+          "conspiracy",
+          "work-related"
+        ],
+        "scores": [
+          0.8562121987342834,
+          0.8391416668891907,
+          0.6779006123542786,
+          0.6671476364135742,
+          0.4085127115249634,
+          0.37387582659721375
+        ]
+      },
+      "suspicion_score": 0.16340508460998537
+    },
+    {
+      "id": 101,
+      "from": "Stanley Hudson <stanley.hudson@dundermifflin.com>",
+      "subject": "Re: Bob Vance",
+      "body": "Sim. Chave dupla.\nO Ryan tem roubado minha comida.",
+      "sentiment": {
+        "label": "NEG",
+        "raw_label": "1 star",
+        "score": 0.48670846223831177
+      },
+      "topics": {
+        "labels": [
+          "conspiracy",
+          "suspicious",
+          "procedural",
+          "personal",
+          "complaint",
+          "work-related"
+        ],
+        "scores": [
+          0.9945678114891052,
+          0.9826909303665161,
+          0.9598186016082764,
+          0.9507778286933899,
+          0.8620035648345947,
+          0.7995206117630005
+        ]
+      },
+      "suspicion_score": 0.5478271245956421
+    },
+    {
+      "id": 102,
+      "from": "Ryan Howard <ryan.howard@dundermifflin.com>",
+      "subject": "YouTube",
+      "body": "Michael, pare de me mandar links de vídeos de gatos tocando piano.\nEstou tentando fechar uma venda importante.\nE não, não podemos criar um canal da Dunder Mifflin no YouTube para fazer \"pegadinhas\" com os clientes.",
+      "sentiment": {
+        "label": "NEG",
+        "raw_label": "1 star",
+        "score": 0.6686596274375916
+      },
+      "topics": {
+        "labels": [
+          "suspicious",
+          "work-related",
+          "procedural",
+          "conspiracy",
+          "complaint",
+          "personal"
+        ],
+        "scores": [
+          0.8262917399406433,
+          0.8203975558280945,
+          0.7739006280899048,
+          0.7523766160011292,
+          0.7074046730995178,
+          0.6990490555763245
+        ]
+      },
+      "suspicion_score": 0.4509506464004517
+    },
+    {
+      "id": 103,
+      "from": "-",
+      "subject": "Data: 2008-05-14 09:00",
+      "body": "Mensagem:\nA copiadora principal está mostrando a mensagem \"PC LOAD LETTER\" de novo.\nJá chamei o técnico, mas ele só vem amanhã.\nPor favor, usem a impressora da sala anexa ou a do escritório do Michael (se ele deixar).",
+      "sentiment": {
+        "label": "NEG",
+        "raw_label": "1 star",
+        "score": 0.5472485423088074
+      },
+      "topics": {
+        "labels": [
+          "work-related",
+          "procedural",
+          "complaint",
+          "suspicious",
+          "personal",
+          "conspiracy"
+        ],
+        "scores": [
+          0.9795969724655151,
+          0.8648821115493774,
+          0.7466011643409729,
+          0.4970703423023224,
+          0.4078049957752228,
+          0.2240554392337799
+        ]
+      },
+      "suspicion_score": 0.23962217569351196
+    },
+    {
+      "id": 104,
+      "from": "Michael Scott <michael.scott@dundermifflin.com>",
+      "subject": "Re: Copiadora com problema",
+      "body": "Podem usar a minha. Minha porta está sempre aberta.\nExceto quando está fechada.\nMas tragam seu próprio papel. O meu é especial.",
+      "sentiment": {
+        "label": "NEU",
+        "raw_label": "3 stars",
+        "score": 0.462334543466568
+      },
+      "topics": {
+        "labels": [
+          "personal",
+          "work-related",
+          "complaint",
+          "procedural",
+          "suspicious",
+          "conspiracy"
+        ],
+        "scores": [
+          0.9988372921943665,
+          0.858244001865387,
+          0.8271310925483704,
+          0.8231863379478455,
+          0.4491509795188904,
+          0.24256427586078644
+        ]
+      },
+      "suspicion_score": 0.44702571034431454
+    },
+    {
+      "id": 105,
+      "from": "Oscar Martinez <oscar.martinez@dundermifflin.com>",
+      "subject": "Conciliação Bancária de Abril",
+      "body": "Angela, terminei a conciliação das contas de \"Utilities\" (Luz e Água).\nOs valores batem com o mês passado, apenas um aumento de 2% na conta de luz, provavelmente devido ao aquecedor do Dwight que ele esconde embaixo da mesa.\nVou arquivar na pasta verde.",
+      "sentiment": {
+        "label": "NEG",
+        "raw_label": "1 star",
+        "score": 0.4926324188709259
+      },
+      "topics": {
+        "labels": [
+          "procedural",
+          "suspicious",
+          "work-related",
+          "personal",
+          "complaint",
+          "conspiracy"
+        ],
+        "scores": [
+          0.7310585975646973,
+          0.5078119039535522,
+          0.47219669818878174,
+          0.3526475131511688,
+          0.2349328249692917,
+          0.060252316296100616
+        ]
+      },
+      "suspicion_score": 0.17410092651844025
+    },
+    {
+      "id": 106,
+      "from": "Angela Martin <angela.martin@dundermifflin.com>",
+      "subject": "Re: Conciliação Bancária de Abril",
+      "body": "Obrigada, Oscar.\nVou mandar um memorando para o Dwight sobre o uso de energia. O escritório deve ser mantido a 20 graus. Nem mais, nem menos.",
+      "sentiment": {
+        "label": "NEG",
+        "raw_label": "1 star",
+        "score": 0.45218661427497864
+      },
+      "topics": {
+        "labels": [
+          "work-related",
+          "complaint",
+          "procedural",
+          "conspiracy",
+          "suspicious",
+          "personal"
+        ],
+        "scores": [
+          0.9989677667617798,
+          0.9970014691352844,
+          0.9905050992965698,
+          0.8584518432617188,
+          0.6959583163261414,
+          0.6789659261703491
+        ]
+      },
+      "suspicion_score": 0.49338073730468757
+    },
+    {
+      "id": 107,
+      "from": "Toby Flenderson <toby.flenderson@dundermifflin.com>",
+      "subject": "Avaliações de Desempenho",
+      "body": "Michael,\nLembro que o prazo para enviar as avaliações anuais para o RH corporativo é na próxima segunda-feira.\nVocê ainda não preencheu nenhuma. Preciso que você faça isso, é uma exigência legal.",
+      "sentiment": {
+        "label": "NEG",
+        "raw_label": "1 star",
+        "score": 0.2754950523376465
+      },
+      "topics": {
+        "labels": [
+          "procedural",
+          "work-related",
+          "suspicious",
+          "complaint",
+          "personal",
+          "conspiracy"
+        ],
+        "scores": [
+          0.9480434060096741,
+          0.9036349058151245,
+          0.6433292627334595,
+          0.37410447001457214,
+          0.20426252484321594,
+          0.20055769383907318
+        ]
+      },
+      "suspicion_score": 0.23022307753562926
+    },
+    {
+      "id": 108,
+      "from": "Michael Scott <michael.scott@dundermifflin.com>",
+      "subject": "Re: Avaliações de Desempenho",
+      "body": "Eu não avalio pessoas, Toby. Eu as inspiro.\nVou mandar um desenho de um \"joinha\" para cada funcionário. Isso vale mais que seus formulários.\nMas se você insiste, farei no fim de semana. (Narrador: Ele não fará).",
+      "sentiment": {
+        "label": "NEU",
+        "raw_label": "3 stars",
+        "score": 0.3338645398616791
+      },
+      "topics": {
+        "labels": [
+          "work-related",
+          "procedural",
+          "suspicious",
+          "conspiracy",
+          "personal",
+          "complaint"
+        ],
+        "scores": [
+          0.974568247795105,
+          0.968885600566864,
+          0.30798205733299255,
+          0.11020753532648087,
+          0.10070160776376724,
+          0.047735653817653656
+        ]
+      },
+      "suspicion_score": 0.4940830141305923
+    },
+    {
+      "id": 109,
+      "from": "Kelly Kapoor <kelly.kapoor@dundermifflin.com>",
+      "subject": "AMERICAN IDOL!!!",
+      "body": "Gente, vocês viram a final ontem???\nEu chorei tanto. Se alguém der spoiler na cozinha eu juro que grito.\nAinda não consegui assistir ao final porque o Ryan estava usando a TV para jogar videogame.",
+      "sentiment": {
+        "label": "NEG",
+        "raw_label": "1 star",
+        "score": 0.4429713189601898
+      },
+      "topics": {
+        "labels": [
+          "personal",
+          "complaint",
+          "suspicious",
+          "work-related",
+          "conspiracy",
+          "procedural"
+        ],
+        "scores": [
+          0.9803280234336853,
+          0.9621075391769409,
+          0.8404555320739746,
+          0.7877680063247681,
+          0.5926666259765625,
+          0.36500388383865356
+        ]
+      },
+      "suspicion_score": 0.38706665039062504
+    },
+    {
+      "id": 110,
+      "from": "Stanley Hudson <stanley.hudson@dundermifflin.com>",
+      "subject": "Perfume",
+      "body": "Phyllis, esse perfume novo que você está usando me dá alergia.\nPor favor, volte a usar o antigo. Aquele cheirava a pinho. Esse cheira a desespero e flores murchas.\nObrigado.",
+      "sentiment": {
+        "label": "NEG",
+        "raw_label": "1 star",
+        "score": 0.290918231010437
+      },
+      "topics": {
+        "labels": [
+          "suspicious",
+          "personal",
+          "work-related",
+          "complaint",
+          "procedural",
+          "conspiracy"
+        ],
+        "scores": [
+          0.9895311594009399,
+          0.6162432432174683,
+          0.17307846248149872,
+          0.05291180685162544,
+          0.005774929188191891,
+          0.0007978334906511009
+        ]
+      },
+      "suspicion_score": 0.15031913339626043
+    },
+    {
+      "id": 111,
+      "from": "Phyllis Lapin-Vance <phyllis.vance@dundermifflin.com>",
+      "subject": "Re: Perfume",
+      "body": "Bob Vance comprou esse perfume em Paris para mim, Stanley. É importado.\nMas vou tentar usar menos. Você quer um pretzel? Sobrou da minha bolsa.",
+      "sentiment": {
+        "label": "NEG",
+        "raw_label": "2 stars",
+        "score": 0.31034815311431885
+      },
+      "topics": {
+        "labels": [
+          "complaint",
+          "suspicious",
+          "work-related",
+          "procedural",
+          "conspiracy",
+          "personal"
+        ],
+        "scores": [
+          0.9311501383781433,
+          0.910823404788971,
+          0.8810020089149475,
+          0.6661167740821838,
+          0.6083614230155945,
+          0.40133583545684814
+        ]
+      },
+      "suspicion_score": 0.39334456920623784
+    },
+    {
+      "id": 112,
+      "from": "Andy Bernard <andy.bernard@dundermifflin.com>",
+      "subject": "Dica de Cliente",
+      "body": "Tuna,\nFalei com o Sr. Schofield da Schofield Supplies. Ele disse que gosta de pescar.\nComo você é o \"Big Tuna\", pensei que você poderia ligar para ele e usar umas metáforas de peixe.\nAcho que é uma venda garantida. De nada, cara.",
+      "sentiment": {
+        "label": "NEG",
+        "raw_label": "1 star",
+        "score": 0.47947293519973755
+      },
+      "topics": {
+        "labels": [
+          "personal",
+          "work-related",
+          "procedural",
+          "suspicious",
+          "complaint",
+          "conspiracy"
+        ],
+        "scores": [
+          0.005652876105159521,
+          0.0030873692594468594,
+          0.0004765612829942256,
+          0.00038296362617984414,
+          0.0003733659686986357,
+          0.0003459915751591325
+        ]
+      },
+      "suspicion_score": 0.15013839663006365
+    },
+    {
+      "id": 113,
+      "from": "Jim Halpert <jim.halpert@dundermifflin.com>",
+      "subject": "Re: Dica de Cliente",
+      "body": "Obrigado, Andy.\nVou tentar não \"deixar essa escapar\". Entendeu? Peixe.\nValeu.",
+      "sentiment": {
+        "label": "NEG",
+        "raw_label": "1 star",
+        "score": 0.2882532775402069
+      },
+      "topics": {
+        "labels": [
+          "work-related",
+          "complaint",
+          "personal",
+          "suspicious",
+          "procedural",
+          "conspiracy"
+        ],
+        "scores": [
+          0.9908787608146667,
+          0.9875082969665527,
+          0.9752725958824158,
+          0.960878312587738,
+          0.8586000800132751,
+          0.8308687210083008
+        ]
+      },
+      "suspicion_score": 0.4823474884033203
+    },
+    {
+      "id": 114,
+      "from": "Kevin Malone <kevin.malone@dundermifflin.com>",
+      "subject": "Número Mágico",
+      "body": "Pessoal, a conta fechou!\nUsei o \"Keleven\" (meu número mágico) para arredondar os erros de arredondamento.\nBrincadeira. Fechei o balanço do dia corretamente. Podem conferir.",
+      "sentiment": {
+        "label": "POS",
+        "raw_label": "5 stars",
+        "score": 0.42291316390037537
+      },
+      "topics": {
+        "labels": [
+          "personal",
+          "procedural",
+          "conspiracy",
+          "suspicious",
+          "complaint",
+          "work-related"
+        ],
+        "scores": [
+          0.9996711015701294,
+          0.9410070180892944,
+          0.4083947241306305,
+          0.06794758886098862,
+          0.06003151834011078,
+          0.0018494502874091268
+        ]
+      },
+      "suspicion_score": 0.1633578896522522
+    },
+    {
+      "id": 115,
+      "from": "Dwight Schrute <dwight.schrute@dundermifflin.com>",
+      "subject": "Protocolo de Incêndio",
+      "body": "Michael, notei que a saída de emergência B está bloqueada por caixas de papel.\nIsso é uma armadilha mortal.\nVou conduzir um simulado surpresa hoje às 14h. Não conte para ninguém. A reação de pânico genuína é vital para o treinamento.",
+      "sentiment": {
+        "label": "NEG",
+        "raw_label": "1 star",
+        "score": 0.7932569980621338
+      },
+      "topics": {
+        "labels": [
+          "suspicious",
+          "conspiracy",
+          "procedural",
+          "work-related",
+          "complaint",
+          "personal"
+        ],
+        "scores": [
+          0.9995335340499878,
+          0.9961755275726318,
+          0.9419218301773071,
+          0.10524502396583557,
+          0.0075919427908957005,
+          0.001452227821573615
+        ]
+      },
+      "suspicion_score": 0.5484702110290528
+    },
+    {
+      "id": 116,
+      "from": "Michael Scott <michael.scott@dundermifflin.com>",
+      "subject": "Re: Protocolo de Incêndio",
+      "body": "Dwight, não coloque fogo em nada.\nDa última vez o Stanley teve um ataque cardíaco.\nApenas mova as caixas.",
+      "sentiment": {
+        "label": "NEG",
+        "raw_label": "1 star",
+        "score": 0.820031464099884
+      },
+      "topics": {
+        "labels": [
+          "procedural",
+          "complaint",
+          "suspicious",
+          "personal",
+          "conspiracy",
+          "work-related"
+        ],
+        "scores": [
+          0.9902161359786987,
+          0.984291136264801,
+          0.9170801043510437,
+          0.8984105587005615,
+          0.8860758543014526,
+          0.7106282711029053
+        ]
+      },
+      "suspicion_score": 0.8544303417205811
+    },
+    {
+      "id": 117,
+      "from": "Meredith Palmer <meredith.palmer@dundermifflin.com>",
+      "subject": "Happy Hour",
+      "body": "Ei bonitão.\nVamos todos para o Poor Richard's. Você e a recepcionista vêm?\nA primeira rodada é por minha conta (achei um cupom).",
+      "sentiment": {
+        "label": "POS",
+        "raw_label": "4 stars",
+        "score": 0.39290058612823486
+      },
+      "topics": {
+        "labels": [
+          "personal",
+          "procedural",
+          "suspicious",
+          "work-related",
+          "complaint",
+          "conspiracy"
+        ],
+        "scores": [
+          0.9994578957557678,
+          0.6650843620300293,
+          0.3250918686389923,
+          0.19936642050743103,
+          0.1748325079679489,
+          0.06910072267055511
+        ]
+      },
+      "suspicion_score": 0.027640289068222048
+    }
+  ]
+}
