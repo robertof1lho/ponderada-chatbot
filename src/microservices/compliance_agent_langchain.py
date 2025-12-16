@@ -4,7 +4,7 @@ from langchain_core.prompts import ChatPromptTemplate
 from langchain_google_genai import ChatGoogleGenerativeAI
 
 from utils.config import Config
-from .compliance_tools_langchain import ComplianceToolsLangChain
+from compliance_tools_langchain import ComplianceToolsLangChain
 
 class ComplianceAgentLangChain:
     def __init__(self):

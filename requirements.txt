@@ -2,9 +2,16 @@
 pandas>=2.0.0
 python-dotenv>=1.0.0
 
-# LLM & Agents
-langchain>=0.1.0
+# LangChain Core
+langchain>=1.1.0
+langchain-core>=1.2.0
+
+# LLM Providers
+langchain-groq>=1.1.0
+langchain-google-genai>=4.0.0
 langchain-anthropic>=0.1.0
+
+# API Clients
 anthropic>=0.25.0
 
 # Utilidades
