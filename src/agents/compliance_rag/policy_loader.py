@@ -1,7 +1,6 @@
 import os
 import chromadb
 from sentence_transformers import SentenceTransformer
-# Importando a ferramenta de corte inteligente
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 
 current_dir = os.path.dirname(os.path.abspath(__file__))

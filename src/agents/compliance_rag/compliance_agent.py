@@ -64,7 +64,7 @@ def processar_pergunta(pergunta):
     
     SUAS INSTRUÇÕES:
     1. Responda a dúvida baseada ESTRITAMENTE no contexto: {contexto}
-    2. Se a pergunta for idiota, diga que é idiota.
+    2. Se a pergunta for idiota, diga que é idiota ou algo do tipo.
     3. Responda em Português.
 
     Exemplo de tom desejado:
@@ -92,7 +92,7 @@ def processar_pergunta(pergunta):
 if __name__ == "__main__":
     os.system('cls' if os.name == 'nt' else 'clear')
 
-    print(f"👓 {NOME_BOT.upper()} ONLINE 👓")
+    print(f"{NOME_BOT.upper()} ONLINE 👓")
 
     print(f"\n🤖 {NOME_BOT}: Saudações, cidadão!")
     print(f"   Eu sou o {NOME_BOT}, {CARGO_BOT}.")
@@ -103,18 +103,18 @@ if __name__ == "__main__":
 
     while True:
         # O input faz o terminal PAUSAR e esperar você digitar
-        pergunta = input("Você: ")
+        pergunta = input("Pergunte: ")
         
         # Comando para fechar
         if pergunta.lower() in ['sair', 'exit', 'tchau']:
-            print(f"\n{NOME_BOT}: Finalmente. Vá produzir papel!\n")
+            print(f"\n{NOME_BOT}: Finalmente. Vá trabalhar!!!!\n")
             break
         
         # Pula linha vazia
         if not pergunta.strip():
             continue
             
-        print("\n🤖 Dunder pensando...", end="\r") 
+        print("\n🤖 Estou pensando, acalme-se...", end="\r") 
         
         resposta = processar_pergunta(pergunta)
         
